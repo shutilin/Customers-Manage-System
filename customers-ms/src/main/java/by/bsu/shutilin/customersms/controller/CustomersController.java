@@ -20,6 +20,7 @@ public class CustomersController {
     @Autowired
     private CustomerTypesRepository customerTypesRepository;
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/customers")
     public Page<Customers> getCustomers(Pageable pageable) {
         return customersRepository.findAll(pageable);
