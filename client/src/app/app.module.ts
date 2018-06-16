@@ -4,6 +4,7 @@ import { AppRoutingModel } from './app-routing.module';
 import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { HomeComponent } from './components/home/home.component';
@@ -22,7 +23,7 @@ import { CustomersService } from './services/customers.service';
     BrowserModule,
     FormsModule,
     AppRoutingModel,
-    HttpModule
+    HttpClientModule
   ],
   providers: [CustomersService],
   bootstrap: [AppComponent]

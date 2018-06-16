@@ -8,21 +8,41 @@ import { CustomersService } from '../../services/customers.service';
 })
 export class CustomersComponent implements OnInit {
 
-  customers;		
+  customers: Array<Customer>;
+  types = [];		
 
   constructor(
   		private customersService: CustomersService
   	) { }
 
   getTenCustomers() {
-    this.customersService.getTenCustomers().subscribe(data => {
-      this.customers = data.content;
-      console.log(this.customers);
-    })
+    this.customersService.getTenCustomers(res => {
+    	this.customers = res.content;
+    	for(let customer of this.customers) {
+    		this.getTypeById(customer.custTypeId, res => {
+    			customer.type = res.content[0].title;
+    		});
+    	}
+    });
+  }
+
+  getTypeById(id, successCallback) {
+ 		this.customersService.getTypeById(id, successCallback);
   }
 
   ngOnInit() {
   	this.getTenCustomers();
+
   }
 
+}
+
+export interface Customer {
+	id: number; 
+	title: string;
+	firstName: string;
+	lastName: string; 
+	modifiedWhen: string;
+	custTypeId: number;
+	type?:string;
 }

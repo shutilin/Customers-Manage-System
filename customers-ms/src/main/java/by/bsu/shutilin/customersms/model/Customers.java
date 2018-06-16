@@ -1,9 +1,7 @@
 package by.bsu.shutilin.customersms.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.hibernate.annotations.OnDelete;
-import org.hibernate.annotations.OnDeleteAction;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
@@ -13,7 +11,7 @@ import static by.bsu.shutilin.customersms.util.MetaphoneGenerator.getMetaphone;
 
 
 @Entity
-@Table(name="CUSTOMERS")
+@Table(name = "CUSTOMERS")
 public class Customers extends AuditModel {
 
     @Id
@@ -33,20 +31,24 @@ public class Customers extends AuditModel {
     @Size(min = 1, max = 50)
     private String firstName;
 
-    @Column(name="first_name_metaphone")
+    @Column(name = "first_name_metaphone")
     private String firstNameMetaphone;
 
     @NotBlank
     @Size(min = 1, max = 50)
     private String lastName;
 
-    @Column(name="last_name_metaphone")
+    @Column(name = "last_name_metaphone")
     private String lastNameMetaphone;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "customer_type_id", nullable = false)
     @JsonIgnore
     private CustomerTypes customerType;
+
+    @Column(name = "customer_type_id", insertable = false, updatable = false)
+    @JsonProperty(access = JsonProperty.Access.READ_ONLY)
+    private Long custTypeId;
 
     public Long getId() {
         return id;
@@ -106,7 +108,7 @@ public class Customers extends AuditModel {
 
     @PrePersist
     public void createMet() {
-        this.firstNameMetaphone=getMetaphone(this.firstName);
+        this.firstNameMetaphone = getMetaphone(this.firstName);
         this.lastNameMetaphone = getMetaphone(this.lastName);
     }
 
