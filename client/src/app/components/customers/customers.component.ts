@@ -10,6 +10,9 @@ import {FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
 export class CustomersComponent implements OnInit {
 
   customers: Array<Customer>;
+  currentCustomer: Customer;
+  isEdit = false;
+  currentId: number;
   types;
   form;
   newForm = false;
@@ -53,6 +56,11 @@ export class CustomersComponent implements OnInit {
     });
   }
 
+  putCustomer(customer, type, id) {
+    console.log(customer);
+    console.log(id);
+  }
+
   getTenCustomers() {
     this.customersService.getTenCustomers(res => {
       this.customers = res.content;
@@ -81,7 +89,25 @@ export class CustomersComponent implements OnInit {
       title: this.form.get('title').value
     };
     const typeSend = {typeId: this.form.get('type').value};
-    this.newCustomer(customerSend, typeSend.typeId);
+
+    if (!this.isEdit) {
+      this.newCustomer(customerSend, typeSend.typeId);
+      this.form.reset();
+    } else {
+      this.putCustomer(customerSend, typeSend.typeId, this.currentId);
+      this.isEdit = false;
+      this.form.reset();
+    }
+  }
+
+  editCustomer(customer) {
+    this.isEdit = true;
+    this.newForm = true;
+    this.form.controls['firstName'].setValue(customer.firstName);
+    this.form.controls['lastName'].setValue(customer.lastName);
+    this.form.controls['title'].setValue(customer.title);
+    this.form.controls['type'].setValue(customer.custTypeId);
+    this.currentId = customer.id;
   }
 
   deleteCustomer(id) {
@@ -89,6 +115,7 @@ export class CustomersComponent implements OnInit {
       this.getTenCustomers();
     });
   }
+
 
   ngOnInit() {
     this.getTenCustomers();
