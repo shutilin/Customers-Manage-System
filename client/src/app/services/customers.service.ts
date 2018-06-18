@@ -39,6 +39,10 @@ export class CustomersService {
     this.callGET(this.domain + 'types/', successCallback);
   }
 
+  deleteCustomer(id, successCallback) {
+    this.callDelete(this.domain + 'customers/' + id, successCallback);
+  }
+
 
   public callGET(url: string, successCallback: Function): void {
     this.http.get(url, this.options)
@@ -56,5 +60,15 @@ export class CustomersService {
       }, (err) => {
         console.log(err);
       });
+  }
+
+  public callDelete(url: string, successCallback: Function): void {
+    this.http.delete(url)
+      .subscribe((res: any) => {
+        successCallback(res);
+      }, (err) => {
+      console.log(err);
+    });
+
   }
 }

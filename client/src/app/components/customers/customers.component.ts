@@ -22,7 +22,7 @@ export class CustomersComponent implements OnInit {
   }
 
   newCustomerForm() {
-    this.newForm = true;
+    this.newForm = !this.newForm;
   }
 
   createNewCustomerForm() {
@@ -47,7 +47,10 @@ export class CustomersComponent implements OnInit {
   }
 
   newCustomer(customer, type) {
-    this.customersService.newCustomer(customer, type, res => console.log(res.content));
+    this.customersService.newCustomer(customer, type, res => {
+      this.newForm = false;
+      this.getTenCustomers();
+    });
   }
 
   getTenCustomers() {
@@ -64,7 +67,6 @@ export class CustomersComponent implements OnInit {
   getAlltypes() {
     this.customersService.getAllTypes(res => {
       this.types = res.content;
-      console.log(this.types);
     });
   }
 
@@ -82,6 +84,11 @@ export class CustomersComponent implements OnInit {
     this.newCustomer(customerSend, typeSend.typeId);
   }
 
+  deleteCustomer(id) {
+    this.customersService.deleteCustomer(id, res => {
+      this.getTenCustomers();
+    });
+  }
 
   ngOnInit() {
     this.getTenCustomers();

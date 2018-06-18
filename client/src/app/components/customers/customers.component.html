@@ -1,14 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Customers manage system</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="btn-group" role="group" aria-label="Basic example">
-  <button type="button" class="btn btn-secondary" (click)="newCustomerForm()">New</button>
-  <button type="button" class="btn btn-secondary">Middle</button>
-  <button type="button" class="btn btn-secondary">Right</button>
-</div>
+    <button type="button" class="btn btn-secondary" (click)="newCustomerForm()">New</button>
+    <button type="button" class="btn btn-secondary">Middle</button>
+    <button type="button" class="btn btn-secondary">Right</button>
+  </div>
 </nav>
 
 <form [formGroup]="form" *ngIf="newForm" (submit)="onCustomerSubmit()">
@@ -30,7 +31,7 @@
           </select>
         </div>
         <div class="col">
-           <button type="submit" [disabled]="!form.valid" class="btn btn-secondary">Submit</button>
+          <button type="submit" [disabled]="!form.valid" class="btn btn-secondary">Submit</button>
         </div>
       </div>
     </div>
@@ -39,28 +40,41 @@
 
 <table class="table">
   <thead class="thead-light">
-    <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Title</th>
-      <th scope="col">First Name</th>
-      <th scope="col">Last Name</th>
-      <th scope="col">Modified When</th>
-      <th scope="col">TypeID</th>
-      <th scope="col">Type</th>
-    </tr>
+  <tr>
+    <th scope="col">Id</th>
+    <th scope="col">Title</th>
+    <th scope="col">First Name</th>
+    <th scope="col">Last Name</th>
+    <th scope="col">Modified When</th>
+    <th scope="col">TypeID</th>
+    <th scope="col">Type</th>
+    <th scope="col"></th>
+    <th scope="col"></th>
+  </tr>
   </thead>
   <tbody>
 
-    <tr *ngFor="let customer of customers">
-      <td>{{customer.id}}</td>
-      <td>{{customer.title}}</td>
-      <td>{{customer.firstName}}</td>
-      <td>{{customer.lastName}}</td>
-      <td>{{customer.modifiedWhen | date: "dd.MM.yyyy hh:mm:ss"}}</td>
-      <td>{{customer.custTypeId}}</td>
-      <td>{{customer.type}}</td>
-    </tr>
+  <tr *ngFor="let customer of customers">
+    <td>{{customer.id}}</td>
+    <td>{{customer.title}}</td>
+    <td>{{customer.firstName}}</td>
+    <td>{{customer.lastName}}</td>
+    <td>{{customer.modifiedWhen | date: "dd.MM.yyyy hh:mm:ss"}}</td>
+    <td>{{customer.custTypeId}}</td>
+    <td>{{customer.type}}</td>
+    <td>
+      <div class="tool-button">
+        <i class="far fa-edit"></i>
+      </div>
+    </td>
+    <td>
+      <div class="tool-button" (click)="deleteCustomer(customer.id)">
+        <i class="fas fa-times"></i>
+      </div>
+    </td>
+  </tr>
   </tbody>
 
 </table>
-<p></p>
+
+
