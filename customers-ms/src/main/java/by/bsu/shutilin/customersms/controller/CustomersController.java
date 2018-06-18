@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+
 @RestController
 public class CustomersController {
 
@@ -25,11 +26,13 @@ public class CustomersController {
         return customersRepository.findAll(pageable);
     }
 
+    @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/types/{typeId}/customers")
     public Page<Customers> getCustomersByType(@PathVariable (value="typeId") Long typeId, Pageable pageable) {
         return customersRepository.findByCustomerTypeId(typeId,pageable);
     }
 
+    @CrossOrigin
     @PostMapping("/types/{typeId}/customers")
     public Customers createCustomer(@PathVariable (value="typeId") Long typeId, @Valid @RequestBody Customers customers) {
         return customerTypesRepository.findById(typeId).map(customerType -> {

@@ -17,18 +17,8 @@ public class CustomerTypes {
     private Long id;
 
     @NotBlank
-    private String title;
+    private String caption;
 
-   /* @OneToMany(mappedBy = "customerType", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    private Set<Customers> customers;
-
-    public Set<Customers> getCustomers() {
-        return customers;
-    }
-
-    public void setCustomers(Set<Customers> customers) {
-        this.customers = customers;
-    }*/
 
     public Long getId() {
         return id;
@@ -38,11 +28,11 @@ public class CustomerTypes {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getCaption() {
+        return caption;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setCaption(String caption) {
+        this.caption = caption;
     }
 }

@@ -24,7 +24,7 @@ public class Customers extends AuditModel {
     private Long id;
 
     @NotBlank
-    @Size(min = 3, max = 3)
+    @Size(max = 3)
     private String title;
 
     @NotBlank
