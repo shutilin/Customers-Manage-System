@@ -1,3 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Customers manage system</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary" (click)="newCustomerForm()">New</button>
+  <button type="button" class="btn btn-secondary">Middle</button>
+  <button type="button" class="btn btn-secondary">Right</button>
+</div>
+</nav>
+
+<form [formGroup]="form" *ngIf="newForm" (submit)="onCustomerSubmit()">
+  <div class="form-row">
+    <div class="col">
+      <input type="text" formControlName="firstName" class="form-control" placeholder="First name">
+    </div>
+    <div class="col">
+      <input type="text" formControlName="lastName" class="form-control" placeholder="Last name">
+    </div>
+    <div class="col">
+      <div class="row">
+        <div class="col">
+          <input type="text" formControlName="title" class="form-control" placeholder="Title">
+        </div>
+        <div class="col">
+          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" formControlName="type">
+            <option *ngFor="let type of types" value="{{type.id}}">{{type.title}}</option>
+          </select>
+        </div>
+        <div class="col">
+           <button type="submit" [disabled]="!form.valid" class="btn btn-secondary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+
 <table class="table">
   <thead class="thead-light">
     <tr>

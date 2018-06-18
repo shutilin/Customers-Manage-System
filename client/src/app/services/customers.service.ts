@@ -27,8 +27,11 @@ export class CustomersService {
   }
 
   getTypeById(id, successCallback) {
-  	console.log(this.domain + 'types/'+ id);
   	this.callGET(this.domain + 'types/'+ id, successCallback);
+  }
+
+  getAllTypes(successCallback) {
+     this.callGET(this.domain + 'types/', successCallback);
   }
 
 
