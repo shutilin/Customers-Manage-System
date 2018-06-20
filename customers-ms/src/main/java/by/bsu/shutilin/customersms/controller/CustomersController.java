@@ -28,13 +28,13 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/types/{typeId}/customers")
-    public Page<Customers> getCustomersByType(@PathVariable (value="typeId") Long typeId, Pageable pageable) {
-        return customersRepository.findByCustomerTypeId(typeId,pageable);
+    public Page<Customers> getCustomersByType(@PathVariable(value = "typeId") Long typeId, Pageable pageable) {
+        return customersRepository.findByCustomerTypeId(typeId, pageable);
     }
 
-    @CrossOrigin
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/types/{typeId}/customers")
-    public Customers createCustomer(@PathVariable (value="typeId") Long typeId, @Valid @RequestBody Customers customers) {
+    public Customers createCustomer(@PathVariable(value = "typeId") Long typeId, @Valid @RequestBody Customers customers) {
         return customerTypesRepository.findById(typeId).map(customerType -> {
             customers.setCustomerType(customerType);
             return customersRepository.save(customers);
@@ -44,8 +44,28 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @DeleteMapping("/customers/{customerId}")
-    public void deleteCustomer(@PathVariable (value="customerId") Long customerId) {
+    public void deleteCustomer(@PathVariable(value = "customerId") Long customerId) {
         customersRepository.deleteById(customerId);
+    }
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @PutMapping("/types/{typeId}/customers/{customerId}")
+    public Customers updateCustomer(@PathVariable(value = "customerId") Long customerId,
+                                    @PathVariable(value = "typeId") Long typeId,
+                                    @Valid @RequestBody Customers customer) {
+
+        return customerTypesRepository.findById(typeId).map(customerType -> {
+            customer.setCustomerType(customerType);
+            return customersRepository.findById(customerId).map(customerFound -> {
+                customerFound.setId(customerId);
+                customerFound.setFirstName(customer.getFirstName());
+                customerFound.setLastName(customer.getLastName());
+                customerFound.setTitle(customer.getTitle());
+                customerFound.setCustomerType(customer.getCustomerType());
+                return customersRepository.save(customerFound);
+            }).orElseThrow(() -> new IllegalArgumentException("Customer not found"));
+        }).orElseThrow(() -> new IllegalArgumentException("Type found"));
+
     }
 
 }

@@ -57,8 +57,10 @@ export class CustomersComponent implements OnInit {
   }
 
   putCustomer(customer, type, id) {
-    console.log(customer);
-    console.log(id);
+    this.customersService.updateCustomer(customer, type, id, res => {
+      this.newForm = false;
+      this.getTenCustomers();
+    });
   }
 
   getTenCustomers() {

@@ -1,12 +1,10 @@
 import {Injectable} from '@angular/core';
-import {Http, Headers, RequestOptions} from '@angular/http';
 import {HttpClient} from '@angular/common/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
 export class CustomersService {
 
-  options;
   domain = 'http://localhost:8080/';
 
   constructor(
@@ -14,14 +12,6 @@ export class CustomersService {
   ) {
   }
 
-
-  createHeaders() {
-    this.options = new RequestOptions({
-      headers: new Headers({
-        'Content-Type': 'application/json'
-      })
-    });
-  }
 
   newCustomer(customer, type, successCallback) {
     return this.callPOST(this.domain + 'types/' + type + '/customers', customer, successCallback);
@@ -39,13 +29,17 @@ export class CustomersService {
     this.callGET(this.domain + 'types/', successCallback);
   }
 
+  updateCustomer(customer, typeId, customerId, successCallback) {
+    this.callPUT(this.domain + 'types/' + typeId + '/customers/' + customerId, customer, successCallback);
+  }
+
   deleteCustomer(id, successCallback) {
-    this.callDelete(this.domain + 'customers/' + id, successCallback);
+    this.callDELETE(this.domain + 'customers/' + id, successCallback);
   }
 
 
   public callGET(url: string, successCallback: Function): void {
-    this.http.get(url, this.options)
+    this.http.get(url)
       .subscribe((res: any) => {
         successCallback(res);
       }, (err) => {
@@ -62,13 +56,21 @@ export class CustomersService {
       });
   }
 
-  public callDelete(url: string, successCallback: Function): void {
+  public callDELETE(url: string, successCallback: Function): void {
     this.http.delete(url)
       .subscribe((res: any) => {
         successCallback(res);
       }, (err) => {
-      console.log(err);
-    });
+        console.log(err);
+      });
+  }
 
+  public callPUT(url: string, body: any, successCallback: Function): void {
+    this.http.put(url, body)
+      .subscribe((res: any) => {
+        successCallback(res);
+      }, (err) => {
+        console.log(err);
+      });
   }
 }
