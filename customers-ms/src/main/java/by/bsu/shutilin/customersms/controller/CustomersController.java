@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
+import static by.bsu.shutilin.customersms.util.MetaphoneGenerator.getMetaphone;
+
 
 @RestController
 public class CustomersController {
@@ -65,6 +67,15 @@ public class CustomersController {
                 return customersRepository.save(customerFound);
             }).orElseThrow(() -> new IllegalArgumentException("Customer not found"));
         }).orElseThrow(() -> new IllegalArgumentException("Type found"));
+    }
+
+    @GetMapping("/search/{firstName}/{lastName}")
+    public Page<Customers> getCustomersByFirstAndLastMetaphone(@PathVariable(value = "firstName") String firstName,
+                                                               @PathVariable(value = "lastName") String lastName,
+                                                               Pageable pageable) {
+
+        return customersRepository.findByFirstnameAndLastNameMetaphone('%' + getMetaphone(firstName) + '%',
+                '%' + getMetaphone(lastName) + '%', pageable);
 
     }
 
