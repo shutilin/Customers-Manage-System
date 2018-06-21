@@ -1,9 +1,8 @@
-import { RouterModule, Routes } from '@angular/router';
-import { NgModule } from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {NgModule} from '@angular/core';
 
-import { HomeComponent } from './components/home/home.component';
-import { CustomersComponent } from './components/customers/customers.component'; 
-import { NewCustomerComponent }from './components/customers/new-customer/new-customer.component';
+import {HomeComponent} from './components/home/home.component';
+import {NewCustomerComponent} from './components/customers/new-customer/new-customer.component';
 
 const appRoutes: Routes = [
   {
@@ -13,7 +12,7 @@ const appRoutes: Routes = [
   {
     path: 'new-customer',
     component: NewCustomerComponent
-  }
+  },
   { path: '**', component: HomeComponent } // The "Catch-All" Route
 ];
 

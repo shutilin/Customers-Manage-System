@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {CustomersService} from '../../services/customers.service';
-import {FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
+import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-customers',
@@ -10,26 +10,49 @@ import {FormControl, FormGroup, FormBuilder, Validators} from '@angular/forms';
 export class CustomersComponent implements OnInit {
 
   customers: Array<Customer>;
-  currentCustomer: Customer;
   isEdit = false;
   currentId: number;
-  types;
-  form;
-  newForm = false;
+  types: Array<any>;
+  customerForm: FormGroup;
+  searchForm: FormGroup;
+  isCustomerForm: boolean = false;
+  isSearchForm: boolean = false;
 
   constructor(
     private formBuilder: FormBuilder,
     private customersService: CustomersService
   ) {
     this.createNewCustomerForm();
+    this.createSearchForm();
   }
 
-  newCustomerForm() {
-    this.newForm = !this.newForm;
+  toggleCustomerForm() {
+    this.customerForm.reset();
+    if (this.isSearchForm) {
+      this.isSearchForm = false;
+    }
+    this.isCustomerForm = !this.isCustomerForm;
+  }
+
+  toggleSearchForm() {
+    this.searchForm.reset();
+    this.isBlank();
+    if (this.isCustomerForm) {
+      this.isCustomerForm = false;
+    }
+    this.isSearchForm = !this.isSearchForm;
+  }
+
+  isBlank() {
+    if (!this.searchForm.valid) {
+      if (!this.searchForm.getRawValue().firstName && !this.searchForm.getRawValue().lastName) {
+        this.getTenCustomers();
+      }
+    }
   }
 
   createNewCustomerForm() {
-    this.form = new FormGroup({
+    this.customerForm = new FormGroup({
       firstName: new FormControl('', Validators.compose([
         Validators.required,
         Validators.maxLength(50),
@@ -49,16 +72,31 @@ export class CustomersComponent implements OnInit {
     });
   }
 
+  createSearchForm() {
+    this.searchForm = new FormGroup({
+      firstName: new FormControl('', Validators.compose([
+        Validators.required,
+        Validators.maxLength(50),
+        Validators.pattern('^[a-zA-Z]+$')
+      ])),
+      lastName: new FormControl('', Validators.compose([
+        Validators.required,
+        Validators.maxLength(50),
+        Validators.pattern('^[a-zA-Z]+$')
+      ]))
+    });
+  }
+
   newCustomer(customer, type) {
     this.customersService.newCustomer(customer, type, res => {
-      this.newForm = false;
+      this.isCustomerForm = false;
       this.getTenCustomers();
     });
   }
 
   putCustomer(customer, type, id) {
     this.customersService.updateCustomer(customer, type, id, res => {
-      this.newForm = false;
+      this.isCustomerForm = false;
       this.getTenCustomers();
     });
   }
@@ -86,36 +124,60 @@ export class CustomersComponent implements OnInit {
 
   onCustomerSubmit() {
     const customerSend = {
-      firstName: this.form.get('firstName').value,
-      lastName: this.form.get('lastName').value,
-      title: this.form.get('title').value
+      firstName: this.customerForm.get('firstName').value,
+      lastName: this.customerForm.get('lastName').value,
+      title: this.customerForm.get('title').value
     };
-    const typeSend = {typeId: this.form.get('type').value};
+    const typeSend = {typeId: this.customerForm.get('type').value};
 
     if (!this.isEdit) {
       this.newCustomer(customerSend, typeSend.typeId);
-      this.form.reset();
+      this.customerForm.reset();
     } else {
       this.putCustomer(customerSend, typeSend.typeId, this.currentId);
       this.isEdit = false;
-      this.form.reset();
+      this.customerForm.reset();
     }
   }
 
+  onSearchSubmit() {
+    const searchParams = {
+      firstName: this.searchForm.get('firstName').value,
+      lastName: this.searchForm.get('lastName').value
+    };
+    this.searchCustomers(searchParams);
+  }
+
+  searchCustomers(searchParams) {
+    this.customersService.searchCustomers(searchParams, res => {
+      this.customers = res.content;
+      for (const customer of this.customers) {
+        this.getTypeById(customer.custTypeId, res => {
+          customer.type = res.content[0].caption;
+        });
+      }
+    });
+  }
+
   editCustomer(customer) {
+    if (this.isSearchForm) {
+      this.isSearchForm = false;
+    }
     this.isEdit = true;
-    this.newForm = true;
-    this.form.controls['firstName'].setValue(customer.firstName);
-    this.form.controls['lastName'].setValue(customer.lastName);
-    this.form.controls['title'].setValue(customer.title);
-    this.form.controls['type'].setValue(customer.custTypeId);
+    this.isCustomerForm = true;
+    this.customerForm.controls['firstName'].setValue(customer.firstName);
+    this.customerForm.controls['lastName'].setValue(customer.lastName);
+    this.customerForm.controls['title'].setValue(customer.title);
+    this.customerForm.controls['type'].setValue(customer.custTypeId);
     this.currentId = customer.id;
   }
 
   deleteCustomer(id) {
-    this.customersService.deleteCustomer(id, res => {
-      this.getTenCustomers();
-    });
+    if (confirm('Delete customer with id ' + id)) {
+      this.customersService.deleteCustomer(id, res => {
+        this.getTenCustomers();
+      });
+    }
   }
 
 

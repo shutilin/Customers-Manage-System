@@ -37,6 +37,10 @@ export class CustomersService {
     this.callDELETE(this.domain + 'customers/' + id, successCallback);
   }
 
+  searchCustomers(searchParams, successCallback) {
+    this.callGET(this.domain + 'search/?firstName=' + searchParams.firstName + '&lastName=' + searchParams.lastName, successCallback);
+  }
+
 
   public callGET(url: string, successCallback: Function): void {
     this.http.get(url)

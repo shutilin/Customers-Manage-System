@@ -69,11 +69,22 @@ public class CustomersController {
         }).orElseThrow(() -> new IllegalArgumentException("Type found"));
     }
 
-    @GetMapping("/search/{firstName}/{lastName}")
+    /*@GetMapping("/search/{firstName}/{lastName}")
     public Page<Customers> getCustomersByFirstAndLastMetaphone(@PathVariable(value = "firstName") String firstName,
                                                                @PathVariable(value = "lastName") String lastName,
                                                                Pageable pageable) {
 
+        return customersRepository.findByFirstnameAndLastNameMetaphone('%' + getMetaphone(firstName) + '%',
+                '%' + getMetaphone(lastName) + '%', pageable);
+
+    }*/
+
+    @CrossOrigin(origins = "http://localhost:4200")
+    @GetMapping("/search/")
+    public Page<Customers> getCustomersByFirstAndLastMetaphone(@RequestParam(value = "firstName", required = true) String firstName,
+                                                               @RequestParam(value = "lastName", required = false) String lastName,
+                                                               Pageable pageable) {
+        
         return customersRepository.findByFirstnameAndLastNameMetaphone('%' + getMetaphone(firstName) + '%',
                 '%' + getMetaphone(lastName) + '%', pageable);
 
