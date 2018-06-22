@@ -1,5 +1,7 @@
 package by.bsu.shutilin.customersms.model;
 
+import org.hibernate.validator.constraints.UniqueElements;
+
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
@@ -16,6 +18,7 @@ public class CustomerTypes {
     )
     private Long id;
 
+    @Column(unique = true)
     @NotBlank
     private String caption;
 
