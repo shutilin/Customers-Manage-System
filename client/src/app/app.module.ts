@@ -1,27 +1,21 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { AppRoutingModel } from './app-routing.module';
-import { HttpModule } from '@angular/http';
-import { AppComponent } from './app.component';
-import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import { ReactiveFormsModule } from '@angular/forms';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {AppRoutingModel} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http';
 
-import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import { HomeComponent } from './components/home/home.component';
-import { CustomersComponent } from './components/customers/customers.component';
-import { CustomersService } from './services/customers.service';
-import { TypesService } from './services/types.service';
-import { NewCustomerComponent } from './components/customers/new-customer/new-customer.component';
+import {HomeComponent} from './components/home/home.component';
+import {CustomersComponent} from './components/customers/customers.component';
+import {CustomersService} from './services/customers.service';
+import {HttpClientService} from './services/httpclient.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToolbarComponent,
     HomeComponent,
     CustomersComponent,
-    NewCustomerComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +24,7 @@ import { NewCustomerComponent } from './components/customers/new-customer/new-cu
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [CustomersService, TypesService],
+    providers: [CustomersService, HttpClientService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
