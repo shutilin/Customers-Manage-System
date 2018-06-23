@@ -15,8 +15,11 @@ export class CustomersComponent implements OnInit {
   types: Array<any>;
   customerForm: FormGroup;
   searchForm: FormGroup;
+  totalPages: number;
   isCustomerForm: boolean = false;
   isSearchForm: boolean = false;
+  fakePageArray: Array<number>;
+  searchParams;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -141,16 +144,40 @@ export class CustomersComponent implements OnInit {
   }
 
   onSearchSubmit() {
-    const searchParams = {
+    this.searchParams = {
       firstName: this.searchForm.get('firstName').value,
-      lastName: this.searchForm.get('lastName').value
+      lastName: this.searchForm.get('lastName').value,
     };
-    this.searchCustomers(searchParams);
+    this.searchCustomers(this.searchParams);
+  }
+
+  onSearchPage(pageNumber) {
+      const pageParams = {
+          firstName: this.searchParams.firstName,
+          lastName: this.searchParams.lastName,
+          page: pageNumber
+      };
+      this.getSearchPage(pageParams);
+  }
+
+  getSearchPage(pageParams) {
+    this.customersService.getSearchPage(pageParams,res=> {
+        this.customers = res.content;
+        this.fakePageArray = new Array<number>(res.totalPages);
+        this.totalPages = res.totalPages;
+        for (const customer of this.customers) {
+            this.getTypeById(customer.custTypeId, res => {
+                customer.type = res.content[0].caption;
+            });
+        }
+    })
   }
 
   searchCustomers(searchParams) {
     this.customersService.searchCustomers(searchParams, res => {
       this.customers = res.content;
+      this.fakePageArray = new Array<number>(res.totalPages);
+      this.totalPages = res.totalPages;
       for (const customer of this.customers) {
         this.getTypeById(customer.custTypeId, res => {
           customer.type = res.content[0].caption;

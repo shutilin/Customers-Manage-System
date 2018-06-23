@@ -43,7 +43,18 @@ export class CustomersService {
             firstName: searchParams.firstName,
             lastName: searchParams.lastName,
             page: 0,
-            size: 10,
+            size: 1,
+            sort: 'modifiedWhen,desc'
+        };
+        this.http.callGET(this.domain + 'search/', successCallback, params);
+    }
+
+    getSearchPage(searchParams, successCallback) {
+        let params = {
+            firstName: searchParams.firstName,
+            lastName: searchParams.lastName,
+            page: searchParams.page,
+            size: 1,
             sort: 'modifiedWhen,desc'
         };
         this.http.callGET(this.domain + 'search/', successCallback, params);
