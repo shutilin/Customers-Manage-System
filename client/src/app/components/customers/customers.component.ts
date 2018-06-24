@@ -20,6 +20,7 @@ export class CustomersComponent implements OnInit {
   isSearchForm: boolean = false;
   fakePageArray: Array<number>;
   searchParams;
+  pageNumber: number = 0;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -152,6 +153,7 @@ export class CustomersComponent implements OnInit {
   }
 
   onSearchPage(pageNumber) {
+      this.pageNumber = pageNumber;
       const pageParams = {
           firstName: this.searchParams.firstName,
           lastName: this.searchParams.lastName,
@@ -163,8 +165,6 @@ export class CustomersComponent implements OnInit {
   getSearchPage(pageParams) {
     this.customersService.getSearchPage(pageParams,res=> {
         this.customers = res.content;
-        this.fakePageArray = new Array<number>(res.totalPages);
-        this.totalPages = res.totalPages;
         for (const customer of this.customers) {
             this.getTypeById(customer.custTypeId, res => {
                 customer.type = res.content[0].caption;

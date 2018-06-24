@@ -1,91 +1,91 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Customer management system</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <a class="navbar-brand" href="#">Customer management system</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!--<div class="btn-group" role="group" aria-label="Basic example">
-    <button type="button" class="btn btn-secondary" (click)="toggleCustomerForm()">New</button>
-    <button type="button" class="btn btn-secondary" (click)="toggleSearchForm()">Search</button>
-    <button type="button" class="btn btn-secondary">Right</button>
-  </div>-->
+    <!--<div class="btn-group" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-secondary" (click)="toggleCustomerForm()">New</button>
+      <button type="button" class="btn btn-secondary" (click)="toggleSearchForm()">Search</button>
+      <button type="button" class="btn btn-secondary">Right</button>
+    </div>-->
 
-  <div class="tool-buttons">
-    <div class="tool-button" (click)="toggleCustomerForm()">
-      <i class="fas fa-plus"></i>
+    <div class="tool-buttons">
+        <div class="tool-button" (click)="toggleCustomerForm()">
+            <i class="fas fa-plus"></i>
+        </div>
+        <div class="tool-button" (click)="toggleSearchForm()">
+            <i class="fas fa-search"></i>
+        </div>
     </div>
-    <div class="tool-button" (click)="toggleSearchForm()">
-      <i class="fas fa-search"></i>
-    </div>
-  </div>
 
 
 </nav>
 
 <form [formGroup]="customerForm" *ngIf="isCustomerForm" (submit)="onCustomerSubmit()">
-  <input type="text" formControlName="firstName" class="form-control" placeholder="First name">
-  <input type="text" formControlName="lastName" class="form-control" placeholder="Last name">
-  <input type="text" formControlName="title" class="form-control" placeholder="Title">
-  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" formControlName="type">
-    <option *ngFor="let type of types" value="{{type.id}}">{{type.caption}}</option>
-  </select>
-  <div>
-    <button type="submit" [disabled]="!customerForm.valid" class="btn btn-secondary">Submit</button>
-    <button type="submit" class="btn btn-secondary" (click)="toggleCustomerForm()">Close</button>
-  </div>
+    <input type="text" formControlName="firstName" class="form-control" placeholder="First name">
+    <input type="text" formControlName="lastName" class="form-control" placeholder="Last name">
+    <input type="text" formControlName="title" class="form-control" placeholder="Title">
+    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" formControlName="type">
+        <option *ngFor="let type of types" value="{{type.id}}">{{type.caption}}</option>
+    </select>
+    <div>
+        <button type="submit" [disabled]="!customerForm.valid" class="btn btn-secondary">Submit</button>
+        <button type="submit" class="btn btn-secondary" (click)="toggleCustomerForm()">Close</button>
+    </div>
 </form>
 
 <form [formGroup]="searchForm" *ngIf="isSearchForm" (submit)="onSearchSubmit()">
-  <input type="text" formControlName="firstName" class="form-control" placeholder="First name" (keyup)="isBlank()">
-  <input type="text" formControlName="lastName" class="form-control" placeholder="Last name" (keyup)="isBlank()">
-  <div class="">
-    <button type="submit" [disabled]="!searchForm.valid" class="btn btn-secondary">Search</button>
-    <button type="submit" class="btn btn-secondary" (click)="toggleSearchForm()">Close</button>
-  </div>
+    <input type="text" formControlName="firstName" class="form-control" placeholder="First name" (keyup)="isBlank()">
+    <input type="text" formControlName="lastName" class="form-control" placeholder="Last name" (keyup)="isBlank()">
+    <div class="">
+        <button type="submit" [disabled]="!searchForm.valid" class="btn btn-secondary">Search</button>
+        <button type="submit" class="btn btn-secondary" (click)="toggleSearchForm()">Close</button>
+    </div>
 </form>
 
 <table class="table">
-  <thead class="thead-light">
-  <tr>
-    <th scope="col">Id</th>
-    <th scope="col">Title</th>
-    <th scope="col">First Name</th>
-    <th scope="col">Last Name</th>
-    <th scope="col">Modified When</th>
-    <th scope="col">TypeID</th>
-    <th scope="col">Type</th>
-    <th scope="col"></th>
-    <th scope="col"></th>
-  </tr>
-  </thead>
-  <tbody>
+    <thead class="thead-light">
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Modified When</th>
+        <th scope="col">TypeID</th>
+        <th scope="col">Type</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+    </tr>
+    </thead>
+    <tbody>
 
-  <tr *ngFor="let customer of customers">
-    <td>{{customer.id}}</td>
-    <td>{{customer.title}}</td>
-    <td>{{customer.firstName}}</td>
-    <td>{{customer.lastName}}</td>
-    <td>{{customer.modifiedWhen | date: "dd.MM.yyyy hh:mm:ss"}}</td>
-    <td>{{customer.custTypeId}}</td>
-    <td>{{customer.type}}</td>
-    <td>
-      <div class="tool-button" (click)="editCustomer(customer)">
-        <i class="far fa-edit"></i>
-      </div>
-    </td>
-    <td>
-      <div class="tool-button" (click)="deleteCustomer(customer.id)">
-        <i class="fas fa-times"></i>
-      </div>
-    </td>
-  </tr>
-  </tbody>
+    <tr *ngFor="let customer of customers">
+        <td>{{customer.id}}</td>
+        <td>{{customer.title}}</td>
+        <td>{{customer.firstName}}</td>
+        <td>{{customer.lastName}}</td>
+        <td>{{customer.modifiedWhen | date: "dd.MM.yyyy hh:mm:ss"}}</td>
+        <td>{{customer.custTypeId}}</td>
+        <td>{{customer.type}}</td>
+        <td>
+            <div class="tool-button" (click)="editCustomer(customer)">
+                <i class="far fa-edit"></i>
+            </div>
+        </td>
+        <td>
+            <div class="tool-button" (click)="deleteCustomer(customer.id)">
+                <i class="fas fa-times"></i>
+            </div>
+        </td>
+    </tr>
+    </tbody>
 
 </table>
 
-<nav aria-label="Page navigation example">
-    <ul class="pagination">
+<nav *ngIf="totalPages>0 && searchForm.valid">
+    <ul class="pagination justify-content-center">
         <li class="page-item">
             <a class="page-link" href="#" aria-label="Previous">
                 <span aria-hidden="true">&laquo;</span>
@@ -93,7 +93,10 @@
             </a>
         </li>
 
-        <li *ngFor="let page of fakePageArray; let index = index" class="page-item" (click)="onSearchPage(index)"><a class="page-link" href="#">{{index}}</a></li>
+        <li *ngFor="let page of fakePageArray; let index = index" class="page-item"
+            [ngClass]="{'active': pageNumber === index}" (click)="onSearchPage(index)">
+            <a class="page-link" href="#">{{index}}</a>
+        </li>
         <li class="page-item">
             <a class="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>

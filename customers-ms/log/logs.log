@@ -2000,3 +2000,389 @@ java.lang.IllegalArgumentException: Invalid character found in method name. HTTP
 22:02:42.123 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
 22:02:43.005 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
 22:02:48.120 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:05:24.688 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:08:41.690 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:10:31.610 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:10:53.506 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:10:54.952 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:11:03.916 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:10.299 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:14.141 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:15.800 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:16.695 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:17.559 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:18.072 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:18.741 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:19.243 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:19.728 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:20.243 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:21.713 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:22.345 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:22.926 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:26.437 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:26.983 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:27.570 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:27.978 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:28.498 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:30.224 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:30.714 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:31.608 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:31.928 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:38.733 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:39.147 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:39.740 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:40.306 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:41.079 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:41.558 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:42.176 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:42.579 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:43.167 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:11:44.378 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:33:09.856 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:33:14.550 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:33:17.418 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:33:21.081 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:33:22.152 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:38:10.046 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:09.092 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:23.890 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:26.517 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:26.739 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:26.806 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:26.813 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:47:33.829 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:47:36.346 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:47:37.505 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:47:38.105 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:47:38.933 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:47:39.443 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:48:25.645 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:48:27.467 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:48:30.049 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:48:32.332 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:48:50.893 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:48:52.358 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:48:59.949 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:06.798 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:08.508 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:24.611 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:50:28.518 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:30.627 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:33.504 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:50:35.396 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:37.657 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:50:51.632 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:51:50.870 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:51:52.370 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:51:54.321 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:51:56.480 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:51:57.542 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:51:58.815 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:52:04.511 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:52:07.033 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:52:08.871 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:52:51.427 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:52:52.498 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:52:57.725 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:52:59.031 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:00.254 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:18.179 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:18.989 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:23.562 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:53:26.139 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:27.287 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:36.258 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:37.455 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:53:41.424 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:53:42.354 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:53:49.634 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:56:17.877 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+22:56:21.297 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:23.386 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:24.080 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:24.776 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:25.228 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:27.287 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:34.041 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:34.398 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:34.955 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:35.253 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+22:56:39.647 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+23:00:13.031 [Thread-4] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2267ee9d: startup date [Fri Jun 22 22:42:46 MSK 2018]; root of context hierarchy
+23:00:13.066 [Thread-4] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+23:00:13.068 [Thread-4] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+23:00:13.073 [Thread-4] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+23:00:13.078 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:00:13.085 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:00:34.148 [main] INFO  by.bsu.shutilin.customersms.CustomersMsApplication - Starting CustomersMsApplication on Acer-N with PID 6456 (C:\Users\Acer\Desktop\Netcracker\customers-ms\target\classes started by Acer in C:\Users\Acer\Desktop\Netcracker\customers-ms)
+23:00:34.154 [main] INFO  by.bsu.shutilin.customersms.CustomersMsApplication - No active profile set, falling back to default profiles: default
+23:00:34.278 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53d2330e: startup date [Sat Jun 23 23:00:34 MSK 2018]; root of context hierarchy
+23:00:35.503 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d808e430] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+23:00:36.005 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+23:00:36.041 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:00:36.052 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+23:00:36.053 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+23:00:36.067 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Acer\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\adb;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Ruby24-x64\geckodriver;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Gradle\gradle-4.6\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Ruby24-x64\bin;C:\Users\Acer\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Acer\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Users\Acer\AppData\Roaming\npm;C:\Users\Acer\AppData\Local\GitHubDesktop\bin;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Program Files\maven\bin;;.]
+23:00:36.191 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:00:36.192 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1928 ms
+23:00:36.337 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+23:00:36.342 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+23:00:36.342 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23:00:36.343 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23:00:36.343 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+23:00:36.590 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+23:00:36.772 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+23:00:36.825 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+23:00:36.847 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+23:00:36.928 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+23:00:36.931 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+23:00:37.263 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23:00:37.432 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+23:00:37.737 [main] INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+23:00:37.739 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@65226f5e
+23:00:38.837 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23:00:38.942 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils - Executing SQL script from URL [file:/C:/Users/Acer/Desktop/Netcracker/customers-ms/target/classes/data.sql]
+23:00:38.949 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils - Executed SQL script from URL [file:/C:/Users/Acer/Desktop/Netcracker/customers-ms/target/classes/data.sql] in 6 ms.
+23:00:39.288 [main] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+23:00:39.558 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:00:39.949 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53d2330e: startup date [Sat Jun 23 23:00:34 MSK 2018]; root of context hierarchy
+23:00:40.004 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+23:00:40.062 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByType(javax.servlet.http.HttpServletRequest,java.lang.Long,org.springframework.data.domain.Pageable)
+23:00:40.065 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/search/],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByFirstAndLastMetaphone(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+23:00:40.066 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.createCustomer(javax.servlet.http.HttpServletRequest,java.lang.Long,by.bsu.shutilin.customersms.model.Customers)
+23:00:40.067 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)
+23:00:40.068 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers/{customerId}],methods=[PUT]}" onto public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.updateCustomer(javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Long,by.bsu.shutilin.customersms.model.Customers)
+23:00:40.068 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers/{customerId}],methods=[DELETE]}" onto public void by.bsu.shutilin.customersms.controller.CustomersController.deleteCustomer(javax.servlet.http.HttpServletRequest,java.lang.Long)
+23:00:40.071 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypes(org.springframework.data.domain.Pageable)
+23:00:40.071 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypeById(java.lang.Long,org.springframework.data.domain.Pageable)
+23:00:40.072 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.CustomerTypes by.bsu.shutilin.customersms.controller.CustomerTypeController.createType(by.bsu.shutilin.customersms.model.CustomerTypes)
+23:00:40.074 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23:00:40.075 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23:00:40.105 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:00:40.105 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23:00:40.356 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+23:00:40.358 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+23:00:40.363 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+23:00:40.374 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:00:40.447 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+23:00:40.466 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+23:00:40.471 [main] INFO  by.bsu.shutilin.customersms.CustomersMsApplication - Started CustomersMsApplication in 6.895 seconds (JVM running for 22.117)
+23:02:29.203 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23:02:29.204 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+23:02:29.261 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 57 ms
+23:02:29.420 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+01:10:43.946 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m7s62ms94탎988ns).
+01:11:36.320 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: createCustomer
+01:11:36.488 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+01:11:48.901 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+05:41:12.105 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h27s948ms884탎168ns).
+13:32:20.238 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h51m28s435ms522탎593ns).
+16:06:20.196 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m59s838ms61탎101ns).
+16:08:15.270 [Thread-4] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@53d2330e: startup date [Sat Jun 23 23:00:34 MSK 2018]; root of context hierarchy
+16:08:15.941 [Thread-4] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:08:15.960 [Thread-4] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+16:08:16.038 [Thread-4] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:08:16.170 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:08:16.198 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:08:50.343 [main] INFO  by.bsu.shutilin.customersms.CustomersMsApplication - Starting CustomersMsApplication on Acer-N with PID 14300 (C:\Users\Acer\Desktop\Netcracker\customers-ms\target\classes started by Acer in C:\Users\Acer\Desktop\Netcracker\customers-ms)
+16:08:50.348 [main] INFO  by.bsu.shutilin.customersms.CustomersMsApplication - No active profile set, falling back to default profiles: default
+16:08:50.391 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41f90787: startup date [Sun Jun 24 16:08:50 MSK 2018]; root of context hierarchy
+16:08:51.520 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7164ecf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:08:51.952 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+16:08:51.968 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:08:51.979 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+16:08:51.980 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+16:08:51.991 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Acer\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;C:\adb;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Ruby24-x64\geckodriver;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Gradle\gradle-4.6\bin;;C:\WINDOWS\System32\OpenSSH\;C:\Ruby24-x64\bin;C:\Users\Acer\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Acer\AppData\Local\Programs\Python\Python36-32\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Users\Acer\AppData\Roaming\npm;C:\Users\Acer\AppData\Local\GitHubDesktop\bin;C:\Users\Acer\AppData\Local\Microsoft\WindowsApps;C:\Program Files\maven\bin;;.]
+16:08:52.632 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:08:52.632 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2245 ms
+16:08:52.772 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+16:08:52.776 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:08:52.777 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:08:52.777 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:08:52.777 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:08:52.969 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:08:53.257 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:08:53.306 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+16:08:53.324 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+16:08:53.419 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+16:08:53.420 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+16:08:53.473 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+16:08:53.637 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+16:08:53.890 [main] INFO  org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+16:08:53.891 [main] INFO  org.hibernate.type.BasicTypeRegistry - HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@2153ab9a
+16:08:55.308 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:08:55.361 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils - Executing SQL script from URL [file:/C:/Users/Acer/Desktop/Netcracker/customers-ms/target/classes/data.sql]
+16:08:55.368 [main] INFO  org.springframework.jdbc.datasource.init.ScriptUtils - Executed SQL script from URL [file:/C:/Users/Acer/Desktop/Netcracker/customers-ms/target/classes/data.sql] in 6 ms.
+16:08:55.752 [main] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+16:08:56.011 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:08:56.303 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41f90787: startup date [Sun Jun 24 16:08:50 MSK 2018]; root of context hierarchy
+16:08:56.355 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:08:56.407 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/search/],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByFirstAndLastMetaphone(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+16:08:56.410 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers/{customerId}],methods=[DELETE]}" onto public void by.bsu.shutilin.customersms.controller.CustomersController.deleteCustomer(javax.servlet.http.HttpServletRequest,java.lang.Long)
+16:08:56.411 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.createCustomer(javax.servlet.http.HttpServletRequest,java.lang.Long,by.bsu.shutilin.customersms.model.Customers)
+16:08:56.411 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers/{customerId}],methods=[PUT]}" onto public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.updateCustomer(javax.servlet.http.HttpServletRequest,java.lang.Long,java.lang.Long,by.bsu.shutilin.customersms.model.Customers)
+16:08:56.412 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)
+16:08:56.413 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByType(javax.servlet.http.HttpServletRequest,java.lang.Long,org.springframework.data.domain.Pageable)
+16:08:56.414 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypes(org.springframework.data.domain.Pageable)
+16:08:56.415 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypeById(java.lang.Long,org.springframework.data.domain.Pageable)
+16:08:56.415 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.CustomerTypes by.bsu.shutilin.customersms.controller.CustomerTypeController.createType(by.bsu.shutilin.customersms.model.CustomerTypes)
+16:08:56.418 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:08:56.420 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:08:56.451 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:08:56.451 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:08:56.699 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:08:56.700 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:08:56.706 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+16:08:56.719 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:08:56.730 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:08:56.747 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+16:08:56.751 [main] INFO  by.bsu.shutilin.customersms.CustomersMsApplication - Started CustomersMsApplication in 6.654 seconds (JVM running for 30.576)
+16:09:22.543 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:09:22.544 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16:09:22.567 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+16:09:23.035 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:09:33.921 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:09:36.683 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:09:40.965 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:09:51.314 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:09:55.372 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:09:56.051 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:31.746 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:11:34.171 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:11:38.567 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:40.627 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:42.152 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:44.336 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:46.166 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:46.899 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:50.536 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: updateCustomer
+16:11:50.866 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:11:52.613 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:11:56.429 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:57.695 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:58.595 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:59.227 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:11:59.763 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:00.283 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:01.245 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:02.895 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:04.157 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:05.463 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:07.521 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:08.986 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:09.834 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:11.427 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:12:18.356 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:19:03.818 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:19:05.096 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:19:07.749 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:19:17.354 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:21:18.987 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:21:22.324 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:21:46.531 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:22:39.601 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:22:58.377 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:23:16.458 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:24:13.731 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:24:19.103 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:24:24.083 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:25.789 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:27.028 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:28.014 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:28.582 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:29.019 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:29.426 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:30.204 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:30.690 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:31.111 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:31.430 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:31.760 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:32.136 [http-nio-8080-exec-7] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:32.463 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:32.795 [http-nio-8080-exec-9] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:33.196 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:24:33.935 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:25:27.638 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:25:32.474 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:25:38.175 [http-nio-8080-exec-8] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:25:39.408 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:25:59.884 [http-nio-8080-exec-2] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:26:22.734 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:27:45.079 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:27:46.122 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomers
+16:27:49.578 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:50.690 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:51.788 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:52.702 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:53.288 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:54.240 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:54.747 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:55.102 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:55.430 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:27:58.243 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:21.070 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:21.991 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:22.446 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:22.932 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:23.308 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:23.730 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:24.002 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:34.195 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:34.613 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:37.279 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:38.167 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:38.535 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:38.894 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:41.627 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:28:43.862 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:29:00.927 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:29:25.166 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:29:27.750 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:19.647 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:20.025 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:20.426 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:20.675 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:20.863 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.023 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.187 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.354 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.512 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.669 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.821 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:21.976 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:22.129 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:22.303 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:22.504 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:23.108 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:23.302 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:23.473 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:23.642 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:23.811 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:23.979 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:24.130 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:24.292 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:24.448 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:24.614 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:24.769 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:29.407 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:29.566 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:29.740 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:30.345 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:30.503 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:31.215 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:31.776 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:32.278 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:56.261 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:56.647 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:57.845 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:30:58.216 [http-nio-8080-exec-4] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:31:14.788 [http-nio-8080-exec-1] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:31:16.073 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:31:18.010 [http-nio-8080-exec-6] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:31:20.709 [http-nio-8080-exec-10] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:31:21.371 [http-nio-8080-exec-5] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
+16:31:24.204 [http-nio-8080-exec-3] INFO  by.bsu.shutilin.customersms.controller.CustomersController - IP: 0:0:0:0:0:0:0:1 METHOD: getCustomersByFirstAndLastMetaphone
