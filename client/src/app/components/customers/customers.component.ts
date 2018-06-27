@@ -40,6 +40,7 @@ export class CustomersComponent implements OnInit {
 
   toggleSearchForm() {
     this.searchForm.reset();
+    this.totalPages = 0;
     this.isBlank();
     if (this.isCustomerForm) {
       this.isCustomerForm = false;

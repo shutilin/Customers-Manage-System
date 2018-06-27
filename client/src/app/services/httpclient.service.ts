@@ -13,12 +13,6 @@ export class HttpClientService {
     constructor(private http: HttpClient) {
     }
 
-    /**
-     * GET-запрос
-     * @param {string} url - url запроса
-     * @param {Function} successCallback - функция-обработчик ответа
-     * @param params - параметры запроса
-     */
     public callGET(url: string, successCallback: Function, params?: any): void {
 
         this.http.get(url, {headers: this.headers, params: params})
@@ -29,14 +23,7 @@ export class HttpClientService {
                 console.log(err);
             });
     }
-
-    /**
-     * POST - запрос
-     * @param {string} url - url запроса
-     * @param body - тело запроса
-     * @param {Function} successCallBack - функция-обработчик ответа
-     * @param params - параметры запроса
-     */
+    
     public callPOST(url: string, body: any, successCallBack: Function, params?: any): void {
 
         this.http.post(url, body, {headers: this.headers, params: params})

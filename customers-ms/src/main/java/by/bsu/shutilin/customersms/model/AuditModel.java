@@ -12,7 +12,7 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 @JsonIgnoreProperties(
         value={"modifiedWhen"},
-        allowGetters = true
+        allowGetters = true //only serialization
 )
 public abstract class AuditModel implements Serializable {
 
