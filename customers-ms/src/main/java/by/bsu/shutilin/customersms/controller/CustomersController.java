@@ -1,6 +1,6 @@
 package by.bsu.shutilin.customersms.controller;
 
-import by.bsu.shutilin.customersms.model.Customers;
+import by.bsu.shutilin.customersms.model.Customer;
 import by.bsu.shutilin.customersms.repository.CustomerTypesRepository;
 import by.bsu.shutilin.customersms.repository.CustomersRepository;
 import org.apache.logging.log4j.LogManager;
@@ -29,7 +29,7 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/customers")
-    public Page<Customers> getCustomers(HttpServletRequest request, Pageable pageable) {
+    public Page<Customer> getCustomers(HttpServletRequest request, Pageable pageable) {
 
         logger.info("IP: " + request.getRemoteAddr() + " METHOD: getCustomers");
         return customersRepository.findAll(pageable);
@@ -37,9 +37,9 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/types/{typeId}/customers")
-    public Page<Customers> getCustomersByType(HttpServletRequest request,
-                                              @PathVariable(value = "typeId") Long typeId,
-                                              Pageable pageable) {
+    public Page<Customer> getCustomersByType(HttpServletRequest request,
+                                             @PathVariable(value = "typeId") Long typeId,
+                                             Pageable pageable) {
 
         logger.info("IP: " + request.getRemoteAddr() + " METHOD: getCustomersByType");
         return customersRepository.findByCustomerTypeId(typeId, pageable);
@@ -47,9 +47,9 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/types/{typeId}/customers")
-    public Customers createCustomer(HttpServletRequest request,
-                                    @PathVariable(value = "typeId") Long typeId,
-                                    @Valid @RequestBody Customers customers) {
+    public Customer createCustomer(HttpServletRequest request,
+                                   @PathVariable(value = "typeId") Long typeId,
+                                   @Valid @RequestBody Customer customers) {
 
         logger.info("IP: " + request.getRemoteAddr() + " METHOD: createCustomer");
         return customerTypesRepository.findById(typeId).map(customerType -> {
@@ -70,10 +70,10 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @PutMapping("/types/{typeId}/customers/{customerId}")
-    public Customers updateCustomer(HttpServletRequest request,
-                                    @PathVariable(value = "customerId") Long customerId,
-                                    @PathVariable(value = "typeId") Long typeId,
-                                    @Valid @RequestBody Customers customer) {
+    public Customer updateCustomer(HttpServletRequest request,
+                                   @PathVariable(value = "customerId") Long customerId,
+                                   @PathVariable(value = "typeId") Long typeId,
+                                   @Valid @RequestBody Customer customer) {
 
 
         logger.info("IP: " + request.getRemoteAddr() + " METHOD: updateCustomer");
@@ -93,10 +93,10 @@ public class CustomersController {
 
     @CrossOrigin(origins = "http://localhost:4200")
     @GetMapping("/search/")
-    public Page<Customers> getCustomersByFirstAndLastMetaphone(HttpServletRequest request,
-                                                               @RequestParam(value = "firstName") String firstName,
-                                                               @RequestParam(value = "lastName") String lastName,
-                                                               Pageable pageable) {
+    public Page<Customer> getCustomersByFirstAndLastMetaphone(HttpServletRequest request,
+                                                              @RequestParam(value = "firstName") String firstName,
+                                                              @RequestParam(value = "lastName") String lastName,
+                                                              Pageable pageable) {
 
 
         logger.info("IP: " + request.getRemoteAddr() + " METHOD: getCustomersByFirstAndLastMetaphone");

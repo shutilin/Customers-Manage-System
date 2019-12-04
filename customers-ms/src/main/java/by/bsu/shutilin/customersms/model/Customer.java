@@ -12,7 +12,7 @@ import static by.bsu.shutilin.customersms.util.MetaphoneGenerator.getMetaphone;
 
 @Entity
 @Table(name = "CUSTOMERS")
-public class Customers extends AuditModel {
+public class Customer extends AuditModel {
 
     @Id
     @GeneratedValue(generator = "cust_id_gen")

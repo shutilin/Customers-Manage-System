@@ -1323,7 +1323,7 @@
 	Jar files URLs []
 	Managed classes names [
 		by.bsu.shutilin.customersms.model.AuditModel
-		by.bsu.shutilin.customersms.model.Customers
+		by.bsu.shutilin.customersms.model.Customer
 		by.bsu.shutilin.customersms.model.CustomerTypes]
 	Mapping files names []
 	Properties []
@@ -1491,23 +1491,23 @@
 2018-06-22 18:06:40.403 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
 2018-06-22 18:06:40.404 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
 2018-06-22 18:06:40.431 [main] DEBUG org.hibernate.boot.model.relational.Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
-2018-06-22 18:06:40.457 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: by.bsu.shutilin.customersms.model.Customers
+2018-06-22 18:06:40.457 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: by.bsu.shutilin.customersms.model.Customer
 2018-06-22 18:06:40.475 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
 2018-06-22 18:06:40.481 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Import with entity name Customers
-2018-06-22 18:06:40.484 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity by.bsu.shutilin.customersms.model.Customers on table customers
+2018-06-22 18:06:40.484 [main] DEBUG org.hibernate.cfg.annotations.EntityBinder - Bind entity by.bsu.shutilin.customersms.model.Customer on table customers
 2018-06-22 18:06:40.512 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=id, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.516 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property id with lazy=false
-2018-06-22 18:06:40.518 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:id]
+2018-06-22 18:06:40.518 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:id]
 2018-06-22 18:06:40.519 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for id
 2018-06-22 18:06:40.520 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property id
 2018-06-22 18:06:40.524 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=modified_when, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.524 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property modifiedWhen with lazy=false
-2018-06-22 18:06:40.524 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:modifiedWhen]
+2018-06-22 18:06:40.524 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:modifiedWhen]
 2018-06-22 18:06:40.525 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for modifiedWhen
 2018-06-22 18:06:40.525 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property modifiedWhen
 2018-06-22 18:06:40.526 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=customer_type_id, insertable=false, updatable=false, unique=false}
 2018-06-22 18:06:40.526 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property custTypeId with lazy=false
-2018-06-22 18:06:40.526 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:custTypeId]
+2018-06-22 18:06:40.526 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:custTypeId]
 2018-06-22 18:06:40.526 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for custTypeId
 2018-06-22 18:06:40.526 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property custTypeId
 2018-06-22 18:06:40.528 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='customer_type_id', referencedColumn='', mappedBy=''}
@@ -1515,27 +1515,27 @@
 2018-06-22 18:06:40.531 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property customerType
 2018-06-22 18:06:40.531 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.532 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
-2018-06-22 18:06:40.532 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:firstName]
+2018-06-22 18:06:40.532 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:firstName]
 2018-06-22 18:06:40.533 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for firstName
 2018-06-22 18:06:40.533 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property firstName
 2018-06-22 18:06:40.534 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=first_name_metaphone, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.534 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property firstNameMetaphone with lazy=false
-2018-06-22 18:06:40.535 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:firstNameMetaphone]
+2018-06-22 18:06:40.535 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:firstNameMetaphone]
 2018-06-22 18:06:40.535 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for firstNameMetaphone
 2018-06-22 18:06:40.535 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property firstNameMetaphone
 2018-06-22 18:06:40.535 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.535 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
-2018-06-22 18:06:40.536 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:lastName]
+2018-06-22 18:06:40.536 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:lastName]
 2018-06-22 18:06:40.536 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for lastName
 2018-06-22 18:06:40.536 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property lastName
 2018-06-22 18:06:40.537 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=last_name_metaphone, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.537 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property lastNameMetaphone with lazy=false
-2018-06-22 18:06:40.538 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:lastNameMetaphone]
+2018-06-22 18:06:40.538 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:lastNameMetaphone]
 2018-06-22 18:06:40.543 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for lastNameMetaphone
 2018-06-22 18:06:40.544 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property lastNameMetaphone
 2018-06-22 18:06:40.544 [main] DEBUG org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(customers), mappingColumn=title, insertable=true, updatable=true, unique=false}
 2018-06-22 18:06:40.545 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - MetadataSourceProcessor property title with lazy=false
-2018-06-22 18:06:40.545 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customers:title]
+2018-06-22 18:06:40.545 [main] DEBUG org.hibernate.cfg.AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [by.bsu.shutilin.customersms.model.Customer:title]
 2018-06-22 18:06:40.545 [main] DEBUG org.hibernate.cfg.annotations.SimpleValueBinder - building SimpleValue for title
 2018-06-22 18:06:40.545 [main] DEBUG org.hibernate.cfg.annotations.PropertyBinder - Building property title
 2018-06-22 18:06:40.546 [main] DEBUG org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: by.bsu.shutilin.customersms.model.CustomerTypes
@@ -1618,8 +1618,8 @@
 2018-06-22 18:06:40.925 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
 2018-06-22 18:06:40.930 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
 2018-06-22 18:06:40.931 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-2018-06-22 18:06:40.932 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.Customers] is safe
-2018-06-22 18:06:40.932 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.Customers
+2018-06-22 18:06:40.932 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.Customer] is safe
+2018-06-22 18:06:40.932 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.Customer
 2018-06-22 18:06:40.982 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.CustomerTypes] is safe
 2018-06-22 18:06:40.982 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.CustomerTypes
 2018-06-22 18:06:40.985 [main] DEBUG org.hibernate.secure.spi.JaccIntegrator - Skipping JACC integration as it was not enabled
@@ -1634,19 +1634,19 @@
 2018-06-22 18:06:41.019 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
 2018-06-22 18:06:41.020 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
 2018-06-22 18:06:41.020 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-2018-06-22 18:06:41.021 [main] DEBUG org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl - Adding touchForUpdate as PreUpdate callback for entity by.bsu.shutilin.customersms.model.Customers
-2018-06-22 18:06:41.022 [main] DEBUG org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl - Adding createMet as PrePersist callback for entity by.bsu.shutilin.customersms.model.Customers
-2018-06-22 18:06:41.023 [main] DEBUG org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl - Adding touchForCreate as PrePersist callback for entity by.bsu.shutilin.customersms.model.Customers
+2018-06-22 18:06:41.021 [main] DEBUG org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl - Adding touchForUpdate as PreUpdate callback for entity by.bsu.shutilin.customersms.model.Customer
+2018-06-22 18:06:41.022 [main] DEBUG org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl - Adding createMet as PrePersist callback for entity by.bsu.shutilin.customersms.model.Customer
+2018-06-22 18:06:41.023 [main] DEBUG org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl - Adding touchForCreate as PrePersist callback for entity by.bsu.shutilin.customersms.model.Customer
 2018-06-22 18:06:41.024 [main] DEBUG org.hibernate.internal.SessionFactoryImpl - Instantiated session factory
-2018-06-22 18:06:41.073 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.Customers] is safe
-2018-06-22 18:06:41.073 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.Customers
-2018-06-22 18:06:41.090 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.Customers] is safe
-2018-06-22 18:06:41.090 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.Customers
+2018-06-22 18:06:41.073 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.Customer] is safe
+2018-06-22 18:06:41.073 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.Customer
+2018-06-22 18:06:41.090 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.Customer] is safe
+2018-06-22 18:06:41.090 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.Customer
 2018-06-22 18:06:41.134 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.CustomerTypes] is safe
 2018-06-22 18:06:41.134 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.CustomerTypes
 2018-06-22 18:06:41.134 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - Not known whether passed class name [by.bsu.shutilin.customersms.model.CustomerTypes] is safe
 2018-06-22 18:06:41.134 [main] DEBUG org.hibernate.boot.internal.ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : by.bsu.shutilin.customersms.model.CustomerTypes
-2018-06-22 18:06:41.142 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: by.bsu.shutilin.customersms.model.Customers
+2018-06-22 18:06:41.142 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: by.bsu.shutilin.customersms.model.Customer
 2018-06-22 18:06:41.142 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from customers where id =?
 2018-06-22 18:06:41.142 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select customers_.id, customers_.modified_when as modified2_1_, customers_.customer_type_id as customer3_1_, customers_.first_name as first_na4_1_, customers_.first_name_metaphone as first_na5_1_, customers_.last_name as last_nam6_1_, customers_.last_name_metaphone as last_nam7_1_, customers_.title as title8_1_ from customers customers_ where customers_.id=?
 2018-06-22 18:06:41.142 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Insert 0: insert into customers (modified_when, customer_type_id, first_name, first_name_metaphone, last_name, last_name_metaphone, title, id) values (?, ?, ?, ?, ?, ?, ?, ?)
@@ -1664,17 +1664,17 @@
 2018-06-22 18:06:41.170 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.171 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.182 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.186 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.186 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.188 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [NONE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
+2018-06-22 18:06:41.188 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [NONE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
 2018-06-22 18:06:41.188 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1a822457]
 2018-06-22 18:06:41.188 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.188 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1687,17 +1687,17 @@
 2018-06-22 18:06:41.189 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.189 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.190 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.190 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.190 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.190 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [READ]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
+2018-06-22 18:06:41.190 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [READ]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
 2018-06-22 18:06:41.191 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7ba05544]
 2018-06-22 18:06:41.191 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.191 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1710,17 +1710,17 @@
 2018-06-22 18:06:41.192 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.192 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.192 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.193 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.193 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.193 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [UPGRADE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update
+2018-06-22 18:06:41.193 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [UPGRADE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update
 2018-06-22 18:06:41.193 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c43dc90]
 2018-06-22 18:06:41.194 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.194 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1733,17 +1733,17 @@
 2018-06-22 18:06:41.194 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.194 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [UPGRADE_NOWAIT]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update nowait 
+2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [UPGRADE_NOWAIT]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update nowait
 2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2d6af097]
 2018-06-22 18:06:41.195 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.196 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1756,17 +1756,17 @@
 2018-06-22 18:06:41.196 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.196 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.196 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [UPGRADE_SKIPLOCKED]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update
+2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [UPGRADE_SKIPLOCKED]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update
 2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1cbcd40d]
 2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.197 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1779,17 +1779,17 @@
 2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [FORCE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update nowait 
+2018-06-22 18:06:41.198 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [FORCE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update nowait
 2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2dd3632c]
 2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1802,17 +1802,17 @@
 2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.199 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [PESSIMISTIC_READ]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for share
+2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [PESSIMISTIC_READ]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for share
 2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@59802b58]
 2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1825,17 +1825,17 @@
 2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.200 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [PESSIMISTIC_WRITE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update
+2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [PESSIMISTIC_WRITE]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update
 2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@71eacf23]
 2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.201 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1848,17 +1848,17 @@
 2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [PESSIMISTIC_FORCE_INCREMENT]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update nowait 
+2018-06-22 18:06:41.202 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [PESSIMISTIC_FORCE_INCREMENT]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=? for update nowait
 2018-06-22 18:06:41.203 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3fbaf25b]
 2018-06-22 18:06:41.203 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.203 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1871,17 +1871,17 @@
 2018-06-22 18:06:41.203 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.203 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.203 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [OPTIMISTIC]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
+2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [OPTIMISTIC]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
 2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67daad19]
 2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : modifiedWhen
 2018-06-22 18:06:41.204 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : custTypeId
@@ -1894,19 +1894,19 @@
 2018-06-22 18:06:41.205 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker - Visiting attribute path : title
 2018-06-22 18:06:41.205 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
 2018-06-22 18:06:41.205 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
-2018-06-22 18:06:41.205 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:41.205 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter - LoadPlan(entity=by.bsu.shutilin.customersms.model.Customer)
     - Returns
-       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customers, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customers)
-          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customers.customerType)
+       - EntityReturnImpl(entity=by.bsu.shutilin.customersms.model.Customer, querySpaceUid=<gen:0>, path=by.bsu.shutilin.customersms.model.Customer)
+          - EntityAttributeFetchImpl(entity=by.bsu.shutilin.customersms.model.CustomerTypes, querySpaceUid=<gen:1>, path=by.bsu.shutilin.customersms.model.Customer.customerType)
     - QuerySpaces
-       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customers)
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=by.bsu.shutilin.customersms.model.Customer)
           - SQL table alias mapping - customers0_
           - alias suffix - 0_
           - suffixed key columns - {id1_1_0_}
 
-2018-06-22 18:06:41.206 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customers [OPTIMISTIC_FORCE_INCREMENT]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
-2018-06-22 18:06:41.225 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity by.bsu.shutilin.customersms.model.Customers: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
-2018-06-22 18:06:41.225 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity by.bsu.shutilin.customersms.model.Customers: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
+2018-06-22 18:06:41.206 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader - Static select for entity by.bsu.shutilin.customersms.model.Customer [OPTIMISTIC_FORCE_INCREMENT]: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
+2018-06-22 18:06:41.225 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_MERGE on entity by.bsu.shutilin.customersms.model.Customer: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
+2018-06-22 18:06:41.225 [main] DEBUG org.hibernate.loader.Loader - Static select for action ACTION_REFRESH on entity by.bsu.shutilin.customersms.model.Customer: select customers0_.id as id1_1_0_, customers0_.modified_when as modified2_1_0_, customers0_.customer_type_id as customer3_1_0_, customers0_.first_name as first_na4_1_0_, customers0_.first_name_metaphone as first_na5_1_0_, customers0_.last_name as last_nam6_1_0_, customers0_.last_name_metaphone as last_nam7_1_0_, customers0_.title as title8_1_0_ from customers customers0_ where customers0_.id=?
 2018-06-22 18:06:41.226 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister - Static SQL for entity: by.bsu.shutilin.customersms.model.CustomerTypes
 2018-06-22 18:06:41.227 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Version select: select id from customer_types where id =?
 2018-06-22 18:06:41.227 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister -  Snapshot select: select customerty_.id, customerty_.caption as caption2_0_ from customer_types customerty_ where customerty_.id=?
@@ -2191,7 +2191,7 @@
 2018-06-22 18:06:41.925 [main] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
 2018-06-22 18:06:41.948 [main] DEBUG org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@47b1c0e7
 2018-06-22 18:06:41.949 [main] INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
-2018-06-22 18:06:41.991 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: SELECT c FROM by.bsu.shutilin.customersms.model.Customers c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
+2018-06-22 18:06:41.991 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: SELECT c FROM by.bsu.shutilin.customersms.model.Customer c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
 2018-06-22 18:06:41.997 [main] DEBUG org.hibernate.hql.internal.ast.HqlParser - weakKeywords() : new LT(1) token - ["by",<108> previously: <109>,line=1,col=15,possibleID=true]
 2018-06-22 18:06:42.002 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
 2018-06-22 18:06:42.004 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- HQL AST ---
@@ -2241,7 +2241,7 @@
                       \-[IDENT] Node: 'lastMet'
 
 2018-06-22 18:06:42.031 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
-2018-06-22 18:06:42.045 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.Customers (c) -> customers0_
+2018-06-22 18:06:42.045 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.Customer (c) -> customers0_
 2018-06-22 18:06:42.046 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : c -> customers0_.id
 2018-06-22 18:06:42.049 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : c -> customers0_.id
 2018-06-22 18:06:42.050 [main] DEBUG org.hibernate.hql.internal.ast.tree.DotNode - getDataType() : firstNameMetaphone -> org.hibernate.type.StringType@6f7d042a
@@ -2256,18 +2256,18 @@
 2018-06-22 18:06:42.063 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- SQL AST ---
  \-[SELECT] QueryNode: 'SELECT'  querySpaces (customers)
     +-[SELECT_CLAUSE] SelectClause: '{select clause}'
-    |  +-[ALIAS_REF] IdentNode: 'customers0_.id as id1_1_' {alias=c, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+    |  +-[ALIAS_REF] IdentNode: 'customers0_.id as id1_1_' {alias=c, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
     |  \-[SQL_TOKEN] SqlFragment: 'customers0_.modified_when as modified2_1_, customers0_.customer_type_id as customer3_1_, customers0_.first_name as first_na4_1_, customers0_.first_name_metaphone as first_na5_1_, customers0_.last_name as last_nam6_1_, customers0_.last_name_metaphone as last_nam7_1_, customers0_.title as title8_1_'
     +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[c], fromElementByTableAlias=[customers0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
-    |  \-[FROM_FRAGMENT] FromElement: 'customers customers0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=customers,tableAlias=customers0_,origin=null,columns={,className=by.bsu.shutilin.customersms.model.Customers}}
+    |  \-[FROM_FRAGMENT] FromElement: 'customers customers0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=customers,tableAlias=customers0_,origin=null,columns={,className=by.bsu.shutilin.customersms.model.Customer}}
     \-[WHERE] SqlNode: 'WHERE'
        \-[AND] SqlNode: 'AND'
           +-[LIKE] BinaryLogicOperatorNode: 'like'
           |  +-[METHOD_CALL] MethodNode: '('
           |  |  +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
           |  |  \-[EXPR_LIST] SqlNode: 'exprList'
-          |  |     \-[DOT] DotNode: 'customers0_.first_name_metaphone' {propertyName=firstNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=firstNameMetaphone,path=c.firstNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customers,classAlias=c}
-          |  |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+          |  |     \-[DOT] DotNode: 'customers0_.first_name_metaphone' {propertyName=firstNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=firstNameMetaphone,path=c.firstNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customer,classAlias=c}
+          |  |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
           |  |        \-[IDENT] IdentNode: 'firstNameMetaphone' {originalText=firstNameMetaphone}
           |  \-[METHOD_CALL] MethodNode: '('
           |     +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
@@ -2277,8 +2277,8 @@
              +-[METHOD_CALL] MethodNode: '('
              |  +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
              |  \-[EXPR_LIST] SqlNode: 'exprList'
-             |     \-[DOT] DotNode: 'customers0_.last_name_metaphone' {propertyName=lastNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=lastNameMetaphone,path=c.lastNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customers,classAlias=c}
-             |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+             |     \-[DOT] DotNode: 'customers0_.last_name_metaphone' {propertyName=lastNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=lastNameMetaphone,path=c.lastNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customer,classAlias=c}
+             |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
              |        \-[IDENT] IdentNode: 'lastNameMetaphone' {originalText=lastNameMetaphone}
              \-[METHOD_CALL] MethodNode: '('
                 +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
@@ -2286,10 +2286,10 @@
                    \-[NAMED_PARAM] ParameterNode: '?' {name=lastMet, expectedType=null}
 
 2018-06-22 18:06:42.063 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-2018-06-22 18:06:42.070 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: SELECT c FROM by.bsu.shutilin.customersms.model.Customers c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
+2018-06-22 18:06:42.070 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: SELECT c FROM by.bsu.shutilin.customersms.model.Customer c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
 2018-06-22 18:06:42.070 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - SQL: select customers0_.id as id1_1_, customers0_.modified_when as modified2_1_, customers0_.customer_type_id as customer3_1_, customers0_.first_name as first_na4_1_, customers0_.first_name_metaphone as first_na5_1_, customers0_.last_name as last_nam6_1_, customers0_.last_name_metaphone as last_nam7_1_, customers0_.title as title8_1_ from customers customers0_ where (upper(customers0_.first_name_metaphone) like upper(?)) and (upper(customers0_.last_name_metaphone) like upper(?))
 2018-06-22 18:06:42.071 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-2018-06-22 18:06:42.081 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select count(c) FROM by.bsu.shutilin.customersms.model.Customers c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
+2018-06-22 18:06:42.081 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select count(c) FROM by.bsu.shutilin.customersms.model.Customer c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
 2018-06-22 18:06:42.081 [main] DEBUG org.hibernate.hql.internal.ast.HqlParser - weakKeywords() : new LT(1) token - ["by",<108> previously: <109>,line=1,col=22,possibleID=true]
 2018-06-22 18:06:42.082 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
 2018-06-22 18:06:42.084 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- HQL AST ---
@@ -2340,7 +2340,7 @@
                       \-[IDENT] Node: 'lastMet'
 
 2018-06-22 18:06:42.090 [main] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
-2018-06-22 18:06:42.090 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.Customers (c) -> customers0_
+2018-06-22 18:06:42.090 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.Customer (c) -> customers0_
 2018-06-22 18:06:42.091 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : c -> customers0_.id
 2018-06-22 18:06:42.091 [main] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : c -> customers0_.id
 2018-06-22 18:06:42.092 [main] DEBUG org.hibernate.hql.internal.ast.tree.DotNode - getDataType() : firstNameMetaphone -> org.hibernate.type.StringType@6f7d042a
@@ -2356,18 +2356,18 @@
  \-[SELECT] QueryNode: 'SELECT'  querySpaces (customers)
     +-[SELECT_CLAUSE] SelectClause: '{select clause}'
     |  +-[COUNT] CountNode: 'count'
-    |  |  \-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+    |  |  \-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
     |  \-[SELECT_COLUMNS] SqlNode: ' as col_0_0_'
     +-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[c], fromElementByTableAlias=[customers0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
-    |  \-[FROM_FRAGMENT] FromElement: 'customers customers0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=customers,tableAlias=customers0_,origin=null,columns={,className=by.bsu.shutilin.customersms.model.Customers}}
+    |  \-[FROM_FRAGMENT] FromElement: 'customers customers0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=c,role=null,tableName=customers,tableAlias=customers0_,origin=null,columns={,className=by.bsu.shutilin.customersms.model.Customer}}
     \-[WHERE] SqlNode: 'WHERE'
        \-[AND] SqlNode: 'AND'
           +-[LIKE] BinaryLogicOperatorNode: 'like'
           |  +-[METHOD_CALL] MethodNode: '('
           |  |  +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
           |  |  \-[EXPR_LIST] SqlNode: 'exprList'
-          |  |     \-[DOT] DotNode: 'customers0_.first_name_metaphone' {propertyName=firstNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=firstNameMetaphone,path=c.firstNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customers,classAlias=c}
-          |  |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+          |  |     \-[DOT] DotNode: 'customers0_.first_name_metaphone' {propertyName=firstNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=firstNameMetaphone,path=c.firstNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customer,classAlias=c}
+          |  |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
           |  |        \-[IDENT] IdentNode: 'firstNameMetaphone' {originalText=firstNameMetaphone}
           |  \-[METHOD_CALL] MethodNode: '('
           |     +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
@@ -2377,8 +2377,8 @@
              +-[METHOD_CALL] MethodNode: '('
              |  +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
              |  \-[EXPR_LIST] SqlNode: 'exprList'
-             |     \-[DOT] DotNode: 'customers0_.last_name_metaphone' {propertyName=lastNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=lastNameMetaphone,path=c.lastNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customers,classAlias=c}
-             |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+             |     \-[DOT] DotNode: 'customers0_.last_name_metaphone' {propertyName=lastNameMetaphone,dereferenceType=PRIMITIVE,getPropertyPath=lastNameMetaphone,path=c.lastNameMetaphone,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customer,classAlias=c}
+             |        +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=c, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
              |        \-[IDENT] IdentNode: 'lastNameMetaphone' {originalText=lastNameMetaphone}
              \-[METHOD_CALL] MethodNode: '('
                 +-[METHOD_NAME] IdentNode: 'UPPER' {originalText=UPPER}
@@ -2386,7 +2386,7 @@
                    \-[NAMED_PARAM] ParameterNode: '?' {name=lastMet, expectedType=null}
 
 2018-06-22 18:06:42.095 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-2018-06-22 18:06:42.095 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: select count(c) FROM by.bsu.shutilin.customersms.model.Customers c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
+2018-06-22 18:06:42.095 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: select count(c) FROM by.bsu.shutilin.customersms.model.Customer c WHERE UPPER(c.firstNameMetaphone) LIKE UPPER(:firstMet) AND UPPER(c.lastNameMetaphone) LIKE UPPER(:lastMet)
 2018-06-22 18:06:42.096 [main] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - SQL: select count(customers0_.id) as col_0_0_ from customers customers0_ where (upper(customers0_.first_name_metaphone) like upper(?)) and (upper(customers0_.last_name_metaphone) like upper(?))
 2018-06-22 18:06:42.096 [main] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
 2018-06-22 18:06:42.098 [main] DEBUG org.springframework.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@635f7c64]
@@ -3008,13 +3008,13 @@
 2018-06-22 18:06:42.726 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Eagerly caching bean 'requestMappingHandlerMapping' to allow for resolving potential circular references
 2018-06-22 18:06:42.731 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'requestMappingHandlerMapping'
 2018-06-22 18:06:42.732 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@230d790e: startup date [Fri Jun 22 18:06:36 MSK 2018]; root of context hierarchy
-2018-06-22 18:06:42.752 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 request handler methods found on class by.bsu.shutilin.customersms.controller.CustomersController: {public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.createCustomer(java.lang.Long,by.bsu.shutilin.customersms.model.Customers)={[/types/{typeId}/customers],methods=[POST]}, public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.updateCustomer(java.lang.Long,java.lang.Long,by.bsu.shutilin.customersms.model.Customers)={[/types/{typeId}/customers/{customerId}],methods=[PUT]}, public void by.bsu.shutilin.customersms.controller.CustomersController.deleteCustomer(java.lang.Long)={[/customers/{customerId}],methods=[DELETE]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)={[/customers],methods=[GET]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByFirstAndLastMetaphone(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)={[/search/],methods=[GET]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByType(java.lang.Long,org.springframework.data.domain.Pageable)={[/types/{typeId}/customers],methods=[GET]}}
-2018-06-22 18:06:42.753 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.createCustomer(java.lang.Long,by.bsu.shutilin.customersms.model.Customers)
-2018-06-22 18:06:42.756 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers/{customerId}],methods=[PUT]}" onto public by.bsu.shutilin.customersms.model.Customers by.bsu.shutilin.customersms.controller.CustomersController.updateCustomer(java.lang.Long,java.lang.Long,by.bsu.shutilin.customersms.model.Customers)
+2018-06-22 18:06:42.752 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 request handler methods found on class by.bsu.shutilin.customersms.controller.CustomersController: {public by.bsu.shutilin.customersms.model.Customer by.bsu.shutilin.customersms.controller.CustomersController.createCustomer(java.lang.Long,by.bsu.shutilin.customersms.model.Customer)={[/types/{typeId}/customers],methods=[POST]}, public by.bsu.shutilin.customersms.model.Customer by.bsu.shutilin.customersms.controller.CustomersController.updateCustomer(java.lang.Long,java.lang.Long,by.bsu.shutilin.customersms.model.Customer)={[/types/{typeId}/customers/{customerId}],methods=[PUT]}, public void by.bsu.shutilin.customersms.controller.CustomersController.deleteCustomer(java.lang.Long)={[/customers/{customerId}],methods=[DELETE]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)={[/customers],methods=[GET]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByFirstAndLastMetaphone(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)={[/search/],methods=[GET]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByType(java.lang.Long,org.springframework.data.domain.Pageable)={[/types/{typeId}/customers],methods=[GET]}}
+2018-06-22 18:06:42.753 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.Customer by.bsu.shutilin.customersms.controller.CustomersController.createCustomer(java.lang.Long,by.bsu.shutilin.customersms.model.Customer)
+2018-06-22 18:06:42.756 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers/{customerId}],methods=[PUT]}" onto public by.bsu.shutilin.customersms.model.Customer by.bsu.shutilin.customersms.controller.CustomersController.updateCustomer(java.lang.Long,java.lang.Long,by.bsu.shutilin.customersms.model.Customer)
 2018-06-22 18:06:42.757 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers/{customerId}],methods=[DELETE]}" onto public void by.bsu.shutilin.customersms.controller.CustomersController.deleteCustomer(java.lang.Long)
-2018-06-22 18:06:42.757 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)
-2018-06-22 18:06:42.757 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/search/],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByFirstAndLastMetaphone(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
-2018-06-22 18:06:42.758 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByType(java.lang.Long,org.springframework.data.domain.Pageable)
+2018-06-22 18:06:42.757 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customer> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)
+2018-06-22 18:06:42.757 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/search/],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customer> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByFirstAndLastMetaphone(java.lang.String,java.lang.String,org.springframework.data.domain.Pageable)
+2018-06-22 18:06:42.758 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}/customers],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customer> by.bsu.shutilin.customersms.controller.CustomersController.getCustomersByType(java.lang.Long,org.springframework.data.domain.Pageable)
 2018-06-22 18:06:42.759 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 3 request handler methods found on class by.bsu.shutilin.customersms.controller.CustomerTypeController: {public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypeById(java.lang.Long,org.springframework.data.domain.Pageable)={[/types/{typeId}],methods=[GET]}, public by.bsu.shutilin.customersms.model.CustomerTypes by.bsu.shutilin.customersms.controller.CustomerTypeController.createType(by.bsu.shutilin.customersms.model.CustomerTypes)={[/types],methods=[POST]}, public org.springframework.data.domain.Page by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypes(org.springframework.data.domain.Pageable)={[/types],methods=[GET]}}
 2018-06-22 18:06:42.760 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types/{typeId}],methods=[GET]}" onto public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypeById(java.lang.Long,org.springframework.data.domain.Pageable)
 2018-06-22 18:06:42.760 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/types],methods=[POST]}" onto public by.bsu.shutilin.customersms.model.CustomerTypes by.bsu.shutilin.customersms.controller.CustomerTypeController.createType(by.bsu.shutilin.customersms.model.CustomerTypes)
@@ -4768,7 +4768,7 @@ Unconditional classes:
 2018-06-22 18:06:53.185 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/types/]
 2018-06-22 18:06:53.189 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /types/
 2018-06-22 18:06:53.189 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /customers
-2018-06-22 18:06:53.192 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)]
+2018-06-22 18:06:53.192 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customer> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)]
 2018-06-22 18:06:53.192 [http-nio-8080-exec-1] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'customersController'
 2018-06-22 18:06:53.193 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypes(org.springframework.data.domain.Pageable)]
 2018-06-22 18:06:53.193 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/customers] is: -1
@@ -4794,7 +4794,7 @@ Unconditional classes:
 2018-06-22 18:06:53.263 [http-nio-8080-exec-2] DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from CustomerTypes as generatedAlias0
 2018-06-22 18:06:53.263 [http-nio-8080-exec-1] DEBUG org.hibernate.query.criteria.internal.CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Customers as generatedAlias0 order by generatedAlias0.modifiedWhen desc
 2018-06-22 18:06:53.265 [http-nio-8080-exec-2] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from by.bsu.shutilin.customersms.model.CustomerTypes as generatedAlias0
-2018-06-22 18:06:53.265 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from by.bsu.shutilin.customersms.model.Customers as generatedAlias0 order by generatedAlias0.modifiedWhen desc
+2018-06-22 18:06:53.265 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from by.bsu.shutilin.customersms.model.Customer as generatedAlias0 order by generatedAlias0.modifiedWhen desc
 2018-06-22 18:06:53.265 [http-nio-8080-exec-2] DEBUG org.hibernate.hql.internal.ast.HqlParser - weakKeywords() : new LT(1) token - ["by",<108> previously: <109>,line=1,col=29,possibleID=true]
 2018-06-22 18:06:53.265 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.HqlParser - weakKeywords() : new LT(1) token - ["by",<108> previously: <109>,line=1,col=29,possibleID=true]
 2018-06-22 18:06:53.266 [http-nio-8080-exec-2] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
@@ -4846,7 +4846,7 @@ Unconditional classes:
 
 2018-06-22 18:06:53.267 [http-nio-8080-exec-2] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
 2018-06-22 18:06:53.267 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
-2018-06-22 18:06:53.268 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.Customers (generatedAlias0) -> customers0_
+2018-06-22 18:06:53.268 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.Customer (generatedAlias0) -> customers0_
 2018-06-22 18:06:53.268 [http-nio-8080-exec-2] DEBUG org.hibernate.hql.internal.ast.tree.FromElement - FromClause{level=1} : by.bsu.shutilin.customersms.model.CustomerTypes (generatedAlias0) -> customerty0_
 2018-06-22 18:06:53.268 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> customers0_.id
 2018-06-22 18:06:53.268 [http-nio-8080-exec-2] DEBUG org.hibernate.hql.internal.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> customerty0_.id
@@ -4876,18 +4876,18 @@ Unconditional classes:
 2018-06-22 18:06:53.271 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - --- SQL AST ---
  \-[SELECT] QueryNode: 'SELECT'  querySpaces (customers)
     +-[SELECT_CLAUSE] SelectClause: '{select clause}'
-    |  +-[ALIAS_REF] IdentNode: 'customers0_.id as id1_1_' {alias=generatedAlias0, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+    |  +-[ALIAS_REF] IdentNode: 'customers0_.id as id1_1_' {alias=generatedAlias0, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
     |  \-[SQL_TOKEN] SqlFragment: 'customers0_.modified_when as modified2_1_, customers0_.customer_type_id as customer3_1_, customers0_.first_name as first_na4_1_, customers0_.first_name_metaphone as first_na5_1_, customers0_.last_name as last_nam6_1_, customers0_.last_name_metaphone as last_nam7_1_, customers0_.title as title8_1_'
     +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[customers0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
-    |  \-[FROM_FRAGMENT] FromElement: 'customers customers0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=customers,tableAlias=customers0_,origin=null,columns={,className=by.bsu.shutilin.customersms.model.Customers}}
+    |  \-[FROM_FRAGMENT] FromElement: 'customers customers0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=customers,tableAlias=customers0_,origin=null,columns={,className=by.bsu.shutilin.customersms.model.Customer}}
     \-[ORDER] OrderByClause: 'order'
-       +-[DOT] DotNode: 'customers0_.modified_when' {propertyName=modifiedWhen,dereferenceType=PRIMITIVE,getPropertyPath=modifiedWhen,path=generatedAlias0.modifiedWhen,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customers,classAlias=generatedAlias0}
-       |  +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=generatedAlias0, className=by.bsu.shutilin.customersms.model.Customers, tableAlias=customers0_}
+       +-[DOT] DotNode: 'customers0_.modified_when' {propertyName=modifiedWhen,dereferenceType=PRIMITIVE,getPropertyPath=modifiedWhen,path=generatedAlias0.modifiedWhen,tableAlias=customers0_,className=by.bsu.shutilin.customersms.model.Customer,classAlias=generatedAlias0}
+       |  +-[ALIAS_REF] IdentNode: 'customers0_.id' {alias=generatedAlias0, className=by.bsu.shutilin.customersms.model.Customer, tableAlias=customers0_}
        |  \-[IDENT] IdentNode: 'modifiedWhen' {originalText=modifiedWhen}
        \-[DESCENDING] SqlNode: 'desc'
 
 2018-06-22 18:06:53.271 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
-2018-06-22 18:06:53.272 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from by.bsu.shutilin.customersms.model.Customers as generatedAlias0 order by generatedAlias0.modifiedWhen desc
+2018-06-22 18:06:53.272 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from by.bsu.shutilin.customersms.model.Customer as generatedAlias0 order by generatedAlias0.modifiedWhen desc
 2018-06-22 18:06:53.272 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.QueryTranslatorImpl - SQL: select customers0_.id as id1_1_, customers0_.modified_when as modified2_1_, customers0_.customer_type_id as customer3_1_, customers0_.first_name as first_na4_1_, customers0_.first_name_metaphone as first_na5_1_, customers0_.last_name as last_nam6_1_, customers0_.last_name_metaphone as last_nam7_1_, customers0_.title as title8_1_ from customers customers0_ order by customers0_.modified_when desc
 2018-06-22 18:06:53.272 [http-nio-8080-exec-1] DEBUG org.hibernate.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
 2018-06-22 18:06:53.283 [http-nio-8080-exec-2] DEBUG org.hibernate.SQL - select customerty0_.id as id1_0_, customerty0_.caption as caption2_0_ from customer_types customerty0_ limit ?
@@ -4895,38 +4895,38 @@ Unconditional classes:
 2018-06-22 18:06:53.293 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result set row: 0
 2018-06-22 18:06:53.293 [http-nio-8080-exec-2] DEBUG org.hibernate.loader.Loader - Result set row: 0
 2018-06-22 18:06:53.296 [http-nio-8080-exec-2] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1051]
-2018-06-22 18:06:53.296 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1501]
+2018-06-22 18:06:53.296 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1501]
 2018-06-22 18:06:53.303 [http-nio-8080-exec-2] DEBUG org.hibernate.loader.Loader - Result set row: 1
 2018-06-22 18:06:53.303 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result set row: 1
 2018-06-22 18:06:53.303 [http-nio-8080-exec-2] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1101]
-2018-06-22 18:06:53.303 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1702]
+2018-06-22 18:06:53.303 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1702]
 2018-06-22 18:06:53.303 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result set row: 2
-2018-06-22 18:06:53.303 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1701]
+2018-06-22 18:06:53.303 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1701]
 2018-06-22 18:06:53.304 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result set row: 3
-2018-06-22 18:06:53.304 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1601]
-2018-06-22 18:06:53.304 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1501]
+2018-06-22 18:06:53.304 [http-nio-8080-exec-1] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1601]
+2018-06-22 18:06:53.304 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1501]
 2018-06-22 18:06:53.304 [http-nio-8080-exec-2] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.CustomerTypes#1051]
 2018-06-22 18:06:53.307 [http-nio-8080-exec-2] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.CustomerTypes#1051]
 2018-06-22 18:06:53.308 [http-nio-8080-exec-2] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.CustomerTypes#1101]
 2018-06-22 18:06:53.308 [http-nio-8080-exec-2] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.CustomerTypes#1101]
-2018-06-22 18:06:53.314 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1501]
-2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1702]
-2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1702]
-2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1701]
-2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1701]
+2018-06-22 18:06:53.314 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1501]
+2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1702]
+2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1702]
+2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1701]
+2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1701]
 2018-06-22 18:06:53.316 [http-nio-8080-exec-2] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
-2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1601]
+2018-06-22 18:06:53.315 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1601]
 2018-06-22 18:06:53.316 [http-nio-8080-exec-2] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1101], EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1051]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
-2018-06-22 18:06:53.316 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1601]
+2018-06-22 18:06:53.316 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1601]
 2018-06-22 18:06:53.316 [http-nio-8080-exec-2] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
 2018-06-22 18:06:53.316 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
-2018-06-22 18:06:53.316 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.Customers#1601], EntityKey[by.bsu.shutilin.customersms.model.Customers#1702], EntityKey[by.bsu.shutilin.customersms.model.Customers#1501], EntityKey[by.bsu.shutilin.customersms.model.Customers#1701]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-06-22 18:06:53.316 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.Customer#1601], EntityKey[by.bsu.shutilin.customersms.model.Customer#1702], EntityKey[by.bsu.shutilin.customersms.model.Customer#1501], EntityKey[by.bsu.shutilin.customersms.model.Customer#1701]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
 2018-06-22 18:06:53.316 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
 2018-06-22 18:06:53.317 [http-nio-8080-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@849720619 wrapping org.postgresql.jdbc.PgConnection@3fbdc293]
 2018-06-22 18:06:53.317 [http-nio-8080-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1158598647 wrapping org.postgresql.jdbc.PgConnection@7e0884a]
 2018-06-22 18:06:53.318 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
 2018-06-22 18:06:53.318 [http-nio-8080-exec-2] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
-2018-06-22 18:06:53.405 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.Customers instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
+2018-06-22 18:06:53.405 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.Customer instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
 2018-06-22 18:06:53.405 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.CustomerTypes instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
 2018-06-22 18:06:53.406 [http-nio-8080-exec-2] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
 2018-06-22 18:06:53.406 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
@@ -5142,7 +5142,7 @@ Unconditional classes:
 2018-06-22 18:08:05.310 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/customers]
 2018-06-22 18:08:05.310 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
 2018-06-22 18:08:05.310 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /customers
-2018-06-22 18:08:05.310 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)]
+2018-06-22 18:08:05.310 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customer> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)]
 2018-06-22 18:08:05.310 [http-nio-8080-exec-10] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'customersController'
 2018-06-22 18:08:05.311 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/customers] is: -1
 2018-06-22 18:08:05.311 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
@@ -5173,35 +5173,35 @@ Unconditional classes:
 2018-06-22 18:08:05.323 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1101], EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1051]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
 2018-06-22 18:08:05.323 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result set row: 0
 2018-06-22 18:08:05.324 [http-nio-8080-exec-1] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
-2018-06-22 18:08:05.324 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1501]
+2018-06-22 18:08:05.324 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1501]
 2018-06-22 18:08:05.325 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result set row: 1
 2018-06-22 18:08:05.325 [http-nio-8080-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@2021324865 wrapping org.postgresql.jdbc.PgConnection@3fbdc293]
-2018-06-22 18:08:05.326 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1702]
+2018-06-22 18:08:05.326 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1702]
 2018-06-22 18:08:05.333 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result set row: 2
 2018-06-22 18:08:05.334 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
-2018-06-22 18:08:05.334 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1701]
+2018-06-22 18:08:05.334 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1701]
 2018-06-22 18:08:05.338 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.CustomerTypes instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
 2018-06-22 18:08:05.338 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result set row: 3
 2018-06-22 18:08:05.339 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-2018-06-22 18:08:05.339 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1601]
+2018-06-22 18:08:05.339 [http-nio-8080-exec-10] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1601]
 2018-06-22 18:08:05.339 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2018-06-22 18:08:05.339 [http-nio-8080-exec-1] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
-2018-06-22 18:08:05.339 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1501]
-2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1501]
-2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1702]
+2018-06-22 18:08:05.339 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1501]
+2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1501]
+2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1702]
 2018-06-22 18:08:05.340 [http-nio-8080-exec-1] DEBUG org.springframework.web.servlet.DispatcherServlet - Successfully completed request
-2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1702]
+2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1702]
 2018-06-22 18:08:05.340 [http-nio-8080-exec-1] DEBUG org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1771d8cc
-2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1701]
-2018-06-22 18:08:05.341 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1701]
-2018-06-22 18:08:05.341 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1601]
-2018-06-22 18:08:05.341 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1601]
+2018-06-22 18:08:05.340 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1701]
+2018-06-22 18:08:05.341 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1701]
+2018-06-22 18:08:05.341 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1601]
+2018-06-22 18:08:05.341 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1601]
 2018-06-22 18:08:05.342 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
-2018-06-22 18:08:05.342 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.Customers#1601], EntityKey[by.bsu.shutilin.customersms.model.Customers#1702], EntityKey[by.bsu.shutilin.customersms.model.Customers#1501], EntityKey[by.bsu.shutilin.customersms.model.Customers#1701]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-06-22 18:08:05.342 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.Customer#1601], EntityKey[by.bsu.shutilin.customersms.model.Customer#1702], EntityKey[by.bsu.shutilin.customersms.model.Customer#1501], EntityKey[by.bsu.shutilin.customersms.model.Customer#1701]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
 2018-06-22 18:08:05.350 [http-nio-8080-exec-10] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
 2018-06-22 18:08:05.354 [http-nio-8080-exec-10] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1198023831 wrapping org.postgresql.jdbc.PgConnection@7e0884a]
 2018-06-22 18:08:05.355 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
-2018-06-22 18:08:05.359 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.Customers instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
+2018-06-22 18:08:05.359 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.Customer instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
 2018-06-22 18:08:05.359 [http-nio-8080-exec-10] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
 2018-06-22 18:08:05.359 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2018-06-22 18:08:05.360 [http-nio-8080-exec-10] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
@@ -5291,7 +5291,7 @@ Unconditional classes:
 2018-06-22 18:08:59.152 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/customers]
 2018-06-22 18:08:59.152 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /types/
 2018-06-22 18:08:59.152 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Looking up handler method for path /customers
-2018-06-22 18:08:59.152 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customers> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)]
+2018-06-22 18:08:59.152 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.Customer> by.bsu.shutilin.customersms.controller.CustomersController.getCustomers(javax.servlet.http.HttpServletRequest,org.springframework.data.domain.Pageable)]
 2018-06-22 18:08:59.152 [http-nio-8080-exec-6] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Returning cached instance of singleton bean 'customersController'
 2018-06-22 18:08:59.152 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Returning handler method [public org.springframework.data.domain.Page<by.bsu.shutilin.customersms.model.CustomerTypes> by.bsu.shutilin.customersms.controller.CustomerTypeController.getTypes(org.springframework.data.domain.Pageable)]
 2018-06-22 18:08:59.152 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Last-Modified value for [/customers] is: -1
@@ -5317,34 +5317,34 @@ Unconditional classes:
 2018-06-22 18:08:59.157 [http-nio-8080-exec-7] DEBUG org.hibernate.loader.Loader - Result set row: 0
 2018-06-22 18:08:59.157 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result set row: 0
 2018-06-22 18:08:59.157 [http-nio-8080-exec-7] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1051]
-2018-06-22 18:08:59.157 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1501]
+2018-06-22 18:08:59.157 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1501]
 2018-06-22 18:08:59.157 [http-nio-8080-exec-7] DEBUG org.hibernate.loader.Loader - Result set row: 1
 2018-06-22 18:08:59.158 [http-nio-8080-exec-7] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1101]
 2018-06-22 18:08:59.158 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result set row: 1
-2018-06-22 18:08:59.158 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1702]
+2018-06-22 18:08:59.158 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1702]
 2018-06-22 18:08:59.158 [http-nio-8080-exec-7] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.CustomerTypes#1051]
 2018-06-22 18:08:59.158 [http-nio-8080-exec-7] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.CustomerTypes#1051]
 2018-06-22 18:08:59.158 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result set row: 2
 2018-06-22 18:08:59.158 [http-nio-8080-exec-7] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.CustomerTypes#1101]
-2018-06-22 18:08:59.158 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1701]
+2018-06-22 18:08:59.158 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1701]
 2018-06-22 18:08:59.159 [http-nio-8080-exec-7] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.CustomerTypes#1101]
 2018-06-22 18:08:59.159 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result set row: 3
 2018-06-22 18:08:59.159 [http-nio-8080-exec-7] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
-2018-06-22 18:08:59.159 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customers#1601]
+2018-06-22 18:08:59.159 [http-nio-8080-exec-6] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[by.bsu.shutilin.customersms.model.Customer#1601]
 2018-06-22 18:08:59.159 [http-nio-8080-exec-7] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1101], EntityKey[by.bsu.shutilin.customersms.model.CustomerTypes#1051]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
 2018-06-22 18:08:59.159 [http-nio-8080-exec-7] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
-2018-06-22 18:08:59.159 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1501]
-2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1501]
-2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1702]
+2018-06-22 18:08:59.159 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1501]
+2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1501]
+2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1702]
 2018-06-22 18:08:59.160 [http-nio-8080-exec-7] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@668229929 wrapping org.postgresql.jdbc.PgConnection@3fbdc293]
-2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1702]
-2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1701]
+2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1702]
+2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1701]
 2018-06-22 18:08:59.160 [http-nio-8080-exec-7] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
-2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1701]
-2018-06-22 18:08:59.161 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customers#1601]
-2018-06-22 18:08:59.161 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customers#1601]
+2018-06-22 18:08:59.160 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1701]
+2018-06-22 18:08:59.161 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Resolving associations for [by.bsu.shutilin.customersms.model.Customer#1601]
+2018-06-22 18:08:59.161 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.internal.TwoPhaseLoad - Done materializing entity [by.bsu.shutilin.customersms.model.Customer#1601]
 2018-06-22 18:08:59.161 [http-nio-8080-exec-6] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Initiating transaction commit
-2018-06-22 18:08:59.162 [http-nio-8080-exec-6] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.Customers#1601], EntityKey[by.bsu.shutilin.customersms.model.Customers#1702], EntityKey[by.bsu.shutilin.customersms.model.Customers#1501], EntityKey[by.bsu.shutilin.customersms.model.Customers#1701]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+2018-06-22 18:08:59.162 [http-nio-8080-exec-6] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[by.bsu.shutilin.customersms.model.Customer#1601], EntityKey[by.bsu.shutilin.customersms.model.Customer#1702], EntityKey[by.bsu.shutilin.customersms.model.Customer#1501], EntityKey[by.bsu.shutilin.customersms.model.Customer#1701]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
 2018-06-22 18:08:59.162 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.CustomerTypes instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
 2018-06-22 18:08:59.162 [http-nio-8080-exec-6] DEBUG org.hibernate.engine.transaction.internal.TransactionImpl - committing
 2018-06-22 18:08:59.162 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
@@ -5354,7 +5354,7 @@ Unconditional classes:
 2018-06-22 18:08:59.164 [http-nio-8080-exec-7] DEBUG org.springframework.web.servlet.DispatcherServlet - Successfully completed request
 2018-06-22 18:08:59.165 [http-nio-8080-exec-7] DEBUG org.springframework.boot.web.servlet.filter.OrderedRequestContextFilter - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@3905c266
 2018-06-22 18:08:59.165 [http-nio-8080-exec-6] DEBUG org.springframework.orm.jpa.JpaTransactionManager - Not closing pre-bound JPA EntityManager after transaction
-2018-06-22 18:08:59.168 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.Customers instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
+2018-06-22 18:08:59.168 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Written [Page 1 of 1 containing by.bsu.shutilin.customersms.model.Customer instances] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@7cff1249]
 2018-06-22 18:08:59.169 [http-nio-8080-exec-6] DEBUG org.springframework.web.servlet.DispatcherServlet - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
 2018-06-22 18:08:59.169 [http-nio-8080-exec-6] DEBUG org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
 2018-06-22 18:08:59.169 [http-nio-8080-exec-6] DEBUG org.springframework.orm.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
