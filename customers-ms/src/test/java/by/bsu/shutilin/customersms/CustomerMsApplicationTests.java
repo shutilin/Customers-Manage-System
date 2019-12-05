@@ -70,4 +70,17 @@ public class CustomerMsApplicationTests {
         assertEquals(result.getCaption(), "test");
     }
 
+    @Test
+    public void getTypeById() throws Exception {
+        CustomerTypes type = new CustomerTypes();
+        type.setCaption("test");
+        type.setId(Long.valueOf(1));
+
+        MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.get("/types/1")
+                .contentType(MediaType.APPLICATION_JSON_VALUE).content(this.mapToJson(type))).andReturn();
+
+        assertTrue(mvcResult.getResponse().getStatus() == 200);
+
+    }
+
 }
